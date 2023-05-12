@@ -25,6 +25,16 @@ module.exports = {
 				'dm-primary-white': 'hsl(0,100%,100%)',
 				'dm-primary-black': 'hsl(0,0%,0%)',
 			},
+			fontSize: {
+				'14': '1.4rem',
+				'16': '1.6rem',
+				'20': '2rem',
+				'24': '2.4rem',
+				'32': '3.2rem',
+				'36': '3.6rem',
+				'40': '4rem',
+				'48': '4.8rem'
+			}
 		},
 	},
 	plugins: [],
