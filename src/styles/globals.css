@@ -59,6 +59,13 @@ h6 {
     isolation: isolate;
 }
 
+.filter {
+    background: rgba(220, 65, 65, 0.9);
+    backdrop-filter: blur(8rem);
+    -webkit-backdrop-filter: blur(8rem);
+}
+
+
 
 
 
