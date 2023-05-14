@@ -6,7 +6,7 @@ const NavigationBox = dynamic(() => import('@/components/organisms/NavigationBox
 });
 const Header = () => {
   return (
-      <header className={`relative`}>
+      <header className={`relative w-full`}>
         <Navbar/>
         <NavigationBox/>
       </header>

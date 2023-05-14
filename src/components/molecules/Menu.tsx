@@ -6,11 +6,12 @@ import {useMenuContext} from "@/context/MenuContext";
 const Menu = () => {
   const {toggleMenu} = useMenuContext()
   return (
-      <div className={`flex items-center gap-[1.6rem] cursor-pointer`} onClick={() => {
+      <div className={`flex items-center gap-[.5rem] cursor-pointer`} onClick={() => {
         toggleMenu()
       }}>
-        <p>Menu</p>
         <MenuSwitch/>
+        <p>Menu</p>
+
       </div>
   );
 };

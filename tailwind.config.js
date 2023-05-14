@@ -26,6 +26,7 @@ module.exports = {
 				'dm-primary-black': 'hsl(0,0%,0%)',
 			},
 			fontSize: {
+				'12': '1.2rem',
 				'14': '1.4rem',
 				'16': '1.6rem',
 				'20': '2rem',

@@ -26,7 +26,8 @@ body {
     min-height: 100vh;
     line-height: 165%;
     -webkit-font-smoothing: antialiased;
-    @apply bg-dm-primary-white text-dm-primary-black
+    @apply bg-dm-primary-white text-dm-primary-black;
+
 }
 
 img,
@@ -60,7 +61,7 @@ h6 {
 }
 
 .filter {
-    background: rgba(220, 65, 65, 0.9);
+    background: rgba(0, 0, 0, 0.9);
     backdrop-filter: blur(8rem);
     -webkit-backdrop-filter: blur(8rem);
 }

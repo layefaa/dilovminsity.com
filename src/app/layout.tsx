@@ -1,4 +1,5 @@
 import '@/styles/globals.css'
+import styles from "@/styles";
 
 
 export const metadata = {
@@ -43,7 +44,7 @@ export default function RootLayout({
 }) {
   return (
       <html lang="en">
-      <body>{children}</body>
+      <body className={`${styles.baseFontSize}`}>{children}</body>
       </html>
   )
 }

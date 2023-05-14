@@ -2,16 +2,17 @@
 import Header from "@/components/templates/Header";
 import MenuContextProvider from "@/context/MenuContextProvider";
 import {domAnimation, LazyMotion} from "framer-motion";
+import {montserrat, playfairDisplay} from "@/utils/fonts";
 
 
 export default function RootLayout({children,}: { children: React.ReactNode }) {
   return (
       <html lang="en">
-      <body>
+      <body className={montserrat.className}>
       <MenuContextProvider>
         <LazyMotion features={domAnimation}>
           <Header/>
-          <main className={'h-[200vh]'}>
+          <main className={'min-h-screen'}>
             {children}
           </main>
         </LazyMotion>
