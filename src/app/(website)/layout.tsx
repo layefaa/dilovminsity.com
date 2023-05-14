@@ -1,8 +1,9 @@
 "use client"
+import React from "react";
 import Header from "@/components/templates/Header";
 import MenuContextProvider from "@/context/MenuContextProvider";
 import {domAnimation, LazyMotion} from "framer-motion";
-import {montserrat, playfairDisplay} from "@/utils/fonts";
+import {montserrat} from "@/utils/fonts";
 
 
 export default function RootLayout({children,}: { children: React.ReactNode }) {

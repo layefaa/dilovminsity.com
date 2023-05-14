@@ -21,6 +21,13 @@ module.exports = {
 			// }
 		},
 		extend: {
+			spacing: {
+				'24': '2.4rem',
+				'28': '2.8rem',
+				'40': '4rem',
+				'48': '4.8rem',
+				'80': '8.0rem',
+			},
 			colors: {
 				'dm-primary-white': 'hsl(0,100%,100%)',
 				'dm-primary-black': 'hsl(0,0%,0%)',

@@ -15,7 +15,7 @@ const Navbar = () => {
           initial="hidden"
           whileInView="show"
           viewport={{once: true}}
-          className={`${styles.flexBetweenCenter}  ${styles.containerPaddingX} text-dm-primary-white filter text-14 font-semibold  w-full z-20 fixed h-[4.5rem] md:h-[8rem] top-0`}>
+          className={`${styles.flexBetweenCenter} text-dm-primary-white filter w-full z-20 fixed h-[4.5rem] md:h-[8rem] top-0 ${styles.containerPaddingX}`}>
         <div className={`w-[30%] flex gap-5`}>
           <Menu/>
           <p>Watch</p>
@@ -25,12 +25,10 @@ const Navbar = () => {
             <Logo/>
           </Link>
         </div>
-        <div className={`w-[30%] flex justify-end`}>
+        <div className={`w-[30%] justify-end flex `}>
           <p>Watch</p>
           <p>Sign In</p>
-          {/*<FollowEffect/>*/}
         </div>
-
 
       </m.nav>
   );

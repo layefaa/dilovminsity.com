@@ -10,7 +10,7 @@ const Button = ({label, onClick, type = 'button', active}: IButton) => {
           <button onClick={onClick}
                   className={`${styles.buttonStyle} relative rounded group overflow-hidden text-ce-secondary-white border-ce-secondary-white border inline-flex rounded-[5px] items-center`}>
         <span
-            className="absolute top-0 left-0 flex w-0 h-full mb-0 transition-all duration-500 ease-out transform translate-x-0 bg-ce-secondary-white group-hover:w-full "></span>
+            className="absolute top-0 left-0 mb-0 flex h-full w-0 translate-x-0 transform transition-all duration-500 ease-out bg-ce-secondary-white group-hover:w-full"></span>
             <span className="relative group-hover:text-ce-primary-black"> {label}</span>
             <svg width="13" height="10" viewBox="0 0 13 10"
                  className={'relative ml-[1rem] fill-ce-secondary-white group-hover:fill-ce-primary-black'}
