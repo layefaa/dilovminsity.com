@@ -1,5 +1,4 @@
 'use client'
-import React from 'react';
 import {MenuSwitch} from "@/components/atoms";
 import {useMenuContext} from "@/context/MenuContext";
 
@@ -11,7 +10,6 @@ const Menu = () => {
       }}>
         <MenuSwitch/>
         <p>Menu</p>
-
       </div>
   );
 };

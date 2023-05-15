@@ -2,7 +2,6 @@
 import styles from "@/styles";
 import {Logo} from "@/components/atoms";
 import {Menu} from "@/components/molecules";
-// import {FollowEffect} from "@/components/organisms";
 import Link from "next/link";
 import {m} from 'framer-motion';
 import {navVariants} from "@/utils/motion";
@@ -15,7 +14,7 @@ const Navbar = () => {
           initial="hidden"
           whileInView="show"
           viewport={{once: true}}
-          className={`${styles.flexBetweenCenter} text-dm-primary-white filter w-full z-20 fixed h-[4.5rem] md:h-[8rem] top-0 ${styles.containerPaddingX}`}>
+          className={`${styles.flexBetweenCenter} px-24 sm:px-40 md:px-48 lg:px-80 text-dm-primary-white filter w-full z-20 fixed h-[4.5rem] md:h-[8rem] top-0 `}>
         <div className={`w-[30%] flex gap-5`}>
           <Menu/>
           <p>Watch</p>
@@ -29,7 +28,6 @@ const Navbar = () => {
           <p>Watch</p>
           <p>Sign In</p>
         </div>
-
       </m.nav>
   );
 };

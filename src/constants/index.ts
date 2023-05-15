@@ -1,6 +1,5 @@
 export const socials = {
-  ig: '',
-  twitter: '',
-  pins: ''
+  ig: 'https://www.instagram.com/login/?next=https%3A%2F%2F',
+  facebook: '',
 }
 
