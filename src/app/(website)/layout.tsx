@@ -1,9 +1,9 @@
 "use client"
 import React from "react";
-import Header from "@/components/templates/Header";
 import MenuContextProvider from "@/context/MenuContextProvider";
 import {domAnimation, LazyMotion} from "framer-motion";
 import {montserrat} from "@/utils/fonts";
+import {Footer, Header} from "@/components/templates";
 
 
 export default function RootLayout({children,}: { children: React.ReactNode }) {
@@ -16,6 +16,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
           <main className={'min-h-screen'}>
             {children}
           </main>
+          <Footer/>
         </LazyMotion>
       </MenuContextProvider>
       </body>
