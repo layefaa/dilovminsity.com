@@ -1,9 +1,9 @@
 import {Hero} from "@/components/templates";
 
-export default function Home() {
+export default function About() {
   return (
       <>
-        <Hero/>
+        Volunteer
       </>
   )
 }
