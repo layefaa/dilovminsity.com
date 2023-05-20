@@ -24,13 +24,13 @@ export interface ILink {
   clickEvent?: () => void
 }
 
-// export interface IInput {
-//   label: string
-//   type?: string
-//   validation?: object
-//   placeholder?: string
-//   name: string
-//   multiline?: boolean
-//   id: string
-//
-// }
+export interface IInput {
+  label: string
+  type?: string
+  validation?: object
+  placeholder?: string
+  name: string
+  multiline?: boolean
+  id: string
+
+}

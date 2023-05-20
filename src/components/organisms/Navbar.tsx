@@ -1,13 +1,16 @@
 'use client'
 import styles from "@/styles";
-import {Logo} from "@/components/atoms";
+import {Logo, MenuSwitch, NavAction} from "@/components/atoms";
 import {Menu} from "@/components/molecules";
 import Link from "next/link";
 import {m} from 'framer-motion';
 import {navVariants} from "@/utils/motion";
+import {AiFillPlayCircle, GiReceiveMoney} from "react-icons/all";
+import {useMenuContext} from "@/context/MenuContext";
 
 
 const Navbar = () => {
+  const {toggleMenu} = useMenuContext()
   return (
       <m.nav
           variants={navVariants}
@@ -16,17 +19,22 @@ const Navbar = () => {
           viewport={{once: true}}
           className={`${styles.flexBetweenCenter} px-24 sm:px-40 md:px-48 lg:px-80 text-dm-primary-white filter w-full z-20 fixed h-[4.5rem] md:h-[8rem] top-0 `}>
         <div className={`w-[30%] flex gap-5`}>
-          <Menu/>
-          <p>Watch</p>
+          <NavAction label={'Menu'} clickEvent={() => toggleMenu()}>
+            <MenuSwitch/>
+          </NavAction>
         </div>
         <div className={`w-[40%] flex justify-center`}>
-          <Link href={'/'} className={`relative h-[2rem] md:h-[6rem] aspect-[3] `}>
+          <Link href={'/'} className={`relative h-[2rem] md:h-[5rem] aspect-[3.5] `}>
             <Logo/>
           </Link>
         </div>
-        <div className={`w-[30%] justify-end flex `}>
-          <p>Watch</p>
-          <p>Sign In</p>
+        <div className={`w-[30%] justify-end flex gap-5 `}>
+          <NavAction label={'Donate'}>
+            <GiReceiveMoney/>
+          </NavAction>
+          <NavAction label={'Watch'}>
+            <AiFillPlayCircle/>
+          </NavAction>
         </div>
       </m.nav>
   );

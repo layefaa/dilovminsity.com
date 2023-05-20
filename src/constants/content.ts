@@ -5,8 +5,8 @@ export const homePage = {
 
 
 export const mission = {
-  header: 'Our mission',
-  paragraph: ' Dilovministry   is set to uphold God\'s standard and precepts. Propagating the gospel of Truth, Love, and Hope to mankind.'
+  header: 'Dilovministry   is set to uphold God\'s standard and precepts.',
+  paragraph: '  Propagating the gospel of Truth, Love, and Hope to mankind.'
 }
 
 export const about = {
