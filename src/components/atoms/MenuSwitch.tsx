@@ -1,6 +1,7 @@
 'use client'
 import {useMenuContext} from "@/context/MenuContext";
-import {AiOutlineMenu, MdOutlineCancel} from "react-icons/all";
+import {AiOutlineMenu} from "react-icons/ai";
+import {MdOutlineCancel} from "react-icons/md";
 
 const MenuSwitch = () => {
   const {isOpen} = useMenuContext()

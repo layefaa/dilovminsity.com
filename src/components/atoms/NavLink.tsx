@@ -15,7 +15,7 @@ const NavLinks = ({route, name,clickEvent}: ILink) => {
         <div>
           <Link
               onClick={clickEvent}
-              className={`leading-[2.5rem] hover:text-bb-tertiary-black text-32 md:text-36 lg:text-48 ${currentRoute === route ? "text-bb-primary-black " : "text-ce-tertiary-white"}`}
+              className={`leading-[2.5rem] hover:text-dm-primary-black text-24 ${currentRoute === route ? "text-dm-primary-green " : "text-dm-primary-white"}`}
               href={route}>
             {name}
           </Link>

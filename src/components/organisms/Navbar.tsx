@@ -5,7 +5,8 @@ import {Menu} from "@/components/molecules";
 import Link from "next/link";
 import {m} from 'framer-motion';
 import {navVariants} from "@/utils/motion";
-import {AiFillPlayCircle, GiReceiveMoney} from "react-icons/all";
+import {GiReceiveMoney} from "react-icons/gi";
+import {AiFillPlayCircle} from "react-icons/ai";
 import {useMenuContext} from "@/context/MenuContext";
 
 
