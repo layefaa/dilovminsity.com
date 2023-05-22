@@ -27,6 +27,8 @@ module.exports = {
 				'40': '4rem',
 				'48': '4.8rem',
 				'80': '8.0rem',
+				'100': '10rem',
+				'150': '15rem',
 			},
 			colors: {
 				'dm-primary-white': 'hsl(0,100%,100%)',

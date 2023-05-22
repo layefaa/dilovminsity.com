@@ -5,6 +5,10 @@ export const socials = {
 
 export const routes = [
   {
+    name: 'Home',
+    route: '/'
+  },
+  {
     name: 'About Us',
     route: '/about'
   },
