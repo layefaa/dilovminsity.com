@@ -34,6 +34,7 @@ module.exports = {
 				'dm-primary-white': 'hsl(0,100%,100%)',
 				'dm-primary-black': 'hsl(0,0%,0%)',
 				'dm-primary-green': '#8DC63F',
+				
 				'dm-primary-blue': '#20A4F3'
 			},
 			fontSize: {
