@@ -47,6 +47,7 @@ const NavigationBox = () => {
                     className={`text-center text-ce-secondary-white font-semibold  pb-10 md:pb-28`}>
                   <p>
                     dilominstry@mail
+
                     {/*{email}*/}
                   </p>
                   <p className={`mt-4 md:mt-6`}>
