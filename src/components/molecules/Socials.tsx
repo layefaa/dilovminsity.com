@@ -1,6 +1,6 @@
 'use client'
 import {motion} from "framer-motion";
-import {Whatsapp, Facebook} from "@/components/atoms";
+import {Facebook, Instagram, Whatsapp} from "@/components/atoms";
 import {ISocialIcon} from "@/interfaces";
 import {slideIn} from "@/utils/motion";
 
@@ -9,12 +9,10 @@ const Socials = ({strokeColor, dir}: ISocialIcon) => {
       <motion.div initial="hidden"
                   whileInView="show"
                   variants={slideIn('spring', 0, .5, dir)} className={`flex justify-center w-full gap-8`}>
-        {/*<YoutubeLink strokeColor={strokeColor}/>*/}
-        {/*<TwitterLink strokeColor={strokeColor}/>*/}
-        <Facebook strokeColor={strokeColor}/>
-        <Whatsapp strokeColor={strokeColor}/>
-        {/*<TiktokLink strokeColor={strokeColor}/>*/}
-        {/*<InstagramLink strokeColor={strokeColor}/>*/}
+
+        <Whatsapp/>
+        <Facebook/>
+        <Instagram/>
       </motion.div>
   );
 
