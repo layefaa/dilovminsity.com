@@ -5,8 +5,10 @@ export const homePage = {
 
 
 export const mission = {
-  header: 'Dilovministry   is set to uphold God\'s standard and precepts.',
-  paragraph: '  Propagating the gospel of Truth, Love, and Hope to mankind.'
+  header: 'TRANSFORMING LIVES',
+  header2: 'THROUGH TRUTH, LOVE AND HOPE',
+  paragraph: 'Unleashing God\'s Power to Transform Lives, Inspire Communities, and Create a World Filled with\n' +
+      'Love, Purpose, and Hope'
 }
 
 export const about = {
@@ -26,4 +28,45 @@ export const objectives = {
 
 export const volunteerPage = {
   callToAction: 'Join Our Team and Make a Difference!',
+}
+
+
+export const aboutChurch = {
+  header: 'about church',
+  paragraph: 'Seek First the Kingdom of God',
+  img: '',
+  section1Header: 'Dilov Ministries',
+  section1Paragraph: 'Welcome to Dilov Ministries, a community dedicated to propagating the gospel of Truth, Love, and Hope to mankind. We are a group of talented and gifted individuals united by our shared vision to transform the world into a better place through love and faith. Upholding God\'s Standard Precepts.',
+  section2Header: 'Our Mission',
+  section2Paragraph: 'At Dilov Ministries, our mission is to save lives both locally and globally, enriching the spiritual and physical well-being of people, and guiding them towards a life filled with love and purpose. We are committed to upholding God\'s standard precepts in everythingwe do.'
+
+}
+
+export const ourCommunity = {
+  header: 'our Community',
+  paragraph: 'Where Talents Flourish, Lives are \n' + 'Transformed, and Hearts Find Belonging',
+  img1: '',
+  section1Header: 'Youth Ministry',
+  section1Paragraph: ' Welcome to the Youth Ministry at Dilov Ministries! We are dedicated to empowering young individuals to discover their purpose, grow in their faith, and make a positive impact in the world. Our ministry is tailored specifically for young people, providing a safe and supportive environment where they can explore their spirituality, build meaningful connections, and navigate the challenges of their journey.\n',
+  img2: '',
+  section2Header: 'Children Ministry',
+  section2Paragraph: ' Welcome to the Children\'s Ministry at Dilov Ministries! We are dedicated to creating a nurturing and engaging environment where children can grow in their faith, develop a strong foundation, and experience God\'s love. Our ministry is tailored specifically for children, providing a place where they can explore their spirituality, learn biblical values, and build lasting friendships.\n'
+
+}
+
+export const ourObjectives = {
+  header: 'OUR OBJECTIVES',
+  paragraph: 'Empowering Change, Spreading Love, \n' + ' Transforming Lives,',
+  img1: '',
+  section1Header: ' Reach out to lost souls',
+  section1Paragraph: 'Proclaim the message of salvation and hope through evangelism and fellowship, bringing the transforming power of God\'s love to those in need.\n',
+  img2: '',
+  section2Header: '  Contribute to the welfare of people',
+  section2Paragraph: ' Extend love, charity, and support both locally and globally, uplifting lives and meeting the physical and emotional needs of individuals and communities.',
+  img3: '',
+  section3Header: '   Establish the right standards of living',
+  section3Paragraph: 'Advocate for righteousness, integrity, and moral values, promoting a life of purpose, excellence, and godly principles.',
+  img4: '',
+  section4Header: 'Promote a godly life worldwide',
+  section4Paragraph: 'Influence nations by spreading the gospel, fostering unity, and inspiring individuals to live in alignment with God\'s truth, love, and hope.\n',
 }

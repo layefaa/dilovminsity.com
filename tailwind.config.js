@@ -32,6 +32,7 @@ module.exports = {
 			},
 			colors: {
 				'dm-primary-white': 'hsl(0,100%,100%)',
+				'dm-secondary-white': 'hsla(0,100%,100%,0.6)',
 				'dm-primary-black': 'hsl(0,0%,0%)',
 				'dm-primary-green': '#8DC63F',
 				'dm-primary-blue': '#20A4F3'

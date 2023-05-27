@@ -1,4 +1,4 @@
-const styles = {
+export const styles = {
   // innerWidth: '2xl:max-w-[1280px] w-full',
   // interWidth: 'lg:w-[80%] w-[100%]',
   baseFontSize: 'text-14 md:text-20',
@@ -23,4 +23,5 @@ const styles = {
 
 };
 
-export default styles;
+
+export const homeHeaderStyle = 'font-[500] text-24 leading-[3.2rem] text-dm-secondary-white'

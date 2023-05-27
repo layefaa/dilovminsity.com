@@ -1,5 +1,5 @@
 'use client'
-import styles from "@/styles";
+import {styles} from "@/styles";
 import {Logo, MenuSwitch, NavAction} from "@/components/atoms";
 import {Menu} from "@/components/molecules";
 import Link from "next/link";
