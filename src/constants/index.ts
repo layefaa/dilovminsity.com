@@ -1,7 +1,7 @@
 export const socials = {
   instagram: 'https://www.instagram.com/login/?next=https%3A%2F%2F',
   facebook: '',
-  whatapps:''
+  whatapps: ''
 
 }
 
@@ -12,18 +12,14 @@ export const routes = [
   },
   {
     name: 'About Us',
-    route: '/about'
+    route: '/'
   },
   {
-    name: 'Support Us',
-    route: '/ngo'
-  },
-  {
-    name: 'Be a Partner',
+    name: 'Partners',
     route: '/partners'
   },
   {
-    name: 'Be a Volunteer',
+    name: 'Volunteers',
     route: '/volunteer'
   },
   {
