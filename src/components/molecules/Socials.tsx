@@ -4,7 +4,7 @@ import {Facebook, Instagram, Whatsapp} from "@/components/atoms";
 import {ISocialIcon} from "@/interfaces";
 import {slideIn} from "@/utils/motion";
 
-const Socials = ({strokeColor, dir}: ISocialIcon) => {
+const Socials = ({dir}: ISocialIcon) => {
   return (
       <motion.div initial="hidden"
                   whileInView="show"

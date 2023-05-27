@@ -11,10 +11,6 @@ export const routes = [
     route: '/'
   },
   {
-    name: 'About Us',
-    route: '/'
-  },
-  {
     name: 'Partners',
     route: '/partners'
   },
@@ -27,4 +23,10 @@ export const routes = [
     route: '/contact'
   }
 ]
+export const aboutDilov = {
+  address: 'address',
+  call_line: 'call line',
+  service_time: '10am - 12am'
+
+}
 
