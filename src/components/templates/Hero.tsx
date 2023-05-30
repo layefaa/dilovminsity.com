@@ -10,7 +10,7 @@ const Hero = () => {
       <div className={'relative h-screen w-full'}>
         <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
         <div className={'absolute h-full w-full flex flex-col justify-center items-center text-dm-primary-white'}>
-          <h1 className={'text-7xl font-bold mb-10'}>{mission.header}</h1>
+          <h1 className={'text-7xl font-bold mb-10 text-gradient-to-b to-[#00D3FB]'}>{mission.header}</h1>
           <h3>{mission.header2}</h3>
           <p className={`${CeraPro.className} text-24 mb-10 font-[700]`}>{mission.paragraph}</p>
           <Button label={'Join the Movement'} type={'button'}/>

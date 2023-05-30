@@ -16,7 +16,7 @@ const OurCommunities = () => {
             <p>{ourCommunity.section1Paragraph}</p>
           </div>
           <div>
-            <Image width={1000} height={1000} src={ourCommunity.img1} alt={''}/>
+            <Image width={1000} height={1000} src={ourCommunity.img2} alt={''}/>
             <h4>{ourCommunity.section2Header}</h4>
             <p>{ourCommunity.section2Paragraph}</p>
           </div>
