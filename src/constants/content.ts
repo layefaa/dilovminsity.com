@@ -8,8 +8,7 @@ export const homePage = {
 export const mission = {
   header: 'TRANSFORMING LIVES',
   header2: 'THROUGH TRUTH, LOVE AND HOPE',
-  paragraph: 'Unleashing God\'s Power to Transform Lives, Inspire Communities, and Create a World Filled with\n' +
-      'Love, Purpose, and Hope'
+  paragraph: 'Unleashing God\'s Power to Transform Lives, Inspire Communities, and Create a World Filled with \n Love, Purpose, and Hope'
 }
 
 export const about = {

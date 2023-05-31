@@ -13,7 +13,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
       <MenuContextProvider>
         <LazyMotion features={domAnimation}>
           <Header/>
-          <main className={'min-h-screen'}>
+          <main className={'min-h-screen w-full'}>
             {children}
           </main>
           <Footer/>
