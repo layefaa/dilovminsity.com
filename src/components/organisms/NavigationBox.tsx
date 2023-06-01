@@ -33,7 +33,7 @@ const NavigationBox = () => {
                     variants={childVariants}
                     className={`text-20 sm:text-24 md:text-32 text-center `}>
                   {/*{menuHeader}*/}
-                  Uphold God's standard and precepts with Dilovministry!
+                  Uphold God&lsquo;s standard and precepts with Dilovministry!
                 </m.p>
                 <m.p
                     variants={childVariants}

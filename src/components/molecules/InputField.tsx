@@ -1,7 +1,7 @@
 'use client'
 import {ErrorMessage, Label} from "@/components/atoms";
 import {IInput} from "@/interfaces";
-import styles from "@/styles";
+import {styles}from "@/styles";
 import {useFormContext} from "react-hook-form";
 import {findInputError} from "@/utils/findInputError";
 import {isFormInvalid} from "@/utils/isFormInvalid";
