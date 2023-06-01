@@ -3,7 +3,7 @@ export const styles = {
   // interWidth: 'lg:w-[80%] w-[100%]',
   baseFontSize: 'text-14 md:text-20',
 
-  containerPaddingX: 'px-24 sm:px-40 md:px-48 lg:px-80',
+  // containerPaddingX: 'px-24 sm:px-40 md:px-48 lg:px-80',
   //
   // contentTop: 'mt-[6rem] md:mt-[7rem]',
   // sectionPaddingY: 'my-[4rem] lg:my-[6rem]',

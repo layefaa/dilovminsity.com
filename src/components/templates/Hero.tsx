@@ -7,7 +7,7 @@ import {Button} from "@/components/atoms";
 
 const Hero = () => {
   return (
-      <div className={'relative h-screen w-full px-24 sm:px-40 md:px-48 lg:px-80'}>
+      <div className={'relative h-screen w-full'}>
         <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
         <div className={'absolute h-full w-full flex flex-col justify-center items-center text-dm-primary-white '}>
           <h1 className={`text-64 leading-[6.4rem] font-bold mb-[1rem] linear-gradient ${CabinetGrotesk.className}`}>{mission.header}</h1>

@@ -3,16 +3,17 @@
 import {FooterBar, FooterLogoWithDetails} from "@/components/organisms";
 import {routes} from "@/constants";
 import Link from "next/link";
+import {CabinetGrotesk, CeraPro} from "@/fonts";
 
 const Footer = () => {
   return (
       <footer
-          className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[8rem] pb-[4rem] md:pt-[12rem] `}>
+          className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[8rem] pb-[4rem] md:pt-[12rem]  ${CabinetGrotesk.className}`}>
         <div className={'flex flex-col sm:flex-row sm:justify-between sm:items-center'}>
           <FooterLogoWithDetails/>
           <div className={'flex gap-3'}>
             {
-              routes.map((link,i)=> {
+              routes.map((link, i) => {
                 return (
                     <Link
                         key={i}

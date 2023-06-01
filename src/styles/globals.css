@@ -88,6 +88,22 @@ h6 {
     filter: blur(7px);
 }
 
+.defaultHeader {
+    @apply text-dm-secondary-white uppercase font-bold text-[2.4rem];
+}
+
+.defaultHeaderParagraph {
+    @apply text-[6.4rem] leading-[100%] font-[500] capitalize;
+}
+
+.defaultSectionHeader {
+    @apply text-[2.4rem] leading-[100%] font-[500] mb-[1.5rem];
+}
+
+.defaultSectionParagraph {
+    @apply text-dm-tertiary-white ;
+}
+
 
 
 

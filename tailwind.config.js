@@ -20,20 +20,21 @@ module.exports = {
 			'2xl': '1536px',
 			// }
 		},
-		spacing: {
-			'24': '2.4rem',
-			'28': '2.8rem',
-			'40': '4rem',
-			'48': '4.8rem',
-			'80': '8.0rem',
-			'100': '10rem',
-			'150': '15rem',
-		},
+	
 		extend: {
-			
+			spacing: {
+				'24': '2.4rem',
+				'28': '2.8rem',
+				'40': '4rem',
+				'48': '4.8rem',
+				'80': '8.0rem',
+				'100': '10rem',
+				'150': '15rem',
+			},
 			colors: {
 				'dm-primary-white': 'hsl(0,100%,100%)',
 				'dm-secondary-white': 'hsla(0,100%,100%,0.6)',
+				'dm-tertiary-white': 'hsla(0,100%,100%,0.8)',
 				'dm-primary-black': 'hsl(0,0%,0%)',
 				'dm-primary-green': '#8DC63F',
 				'dm-primary-blue': '#20A4F3'
