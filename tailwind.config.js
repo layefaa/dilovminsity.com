@@ -20,7 +20,7 @@ module.exports = {
 			'2xl': '1536px',
 			// }
 		},
-	
+		
 		extend: {
 			spacing: {
 				'24': '2.4rem',
@@ -50,6 +50,9 @@ module.exports = {
 				'40': '4rem',
 				'48': '4.8rem',
 				'64': '6.4rem'
+			},
+			gridTemplateRows: {
+				'9': 'repeat(9, minmax(0, 1fr))',
 			}
 		},
 	},

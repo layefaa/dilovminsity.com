@@ -59,7 +59,7 @@ export const ourCommunity = {
 
 export const ourObjectives = {
   header: 'OUR OBJECTIVES',
-  paragraph: 'Empowering Change, Spreading Love, \n' + ' Transforming Lives,',
+  paragraph: 'Empowering Change, Spreading Love, \n' + ' Transforming Lives.',
   img1: '/img/obj1.jpg',
   section1Header: ' Reach out to lost souls',
   section1Paragraph: 'Proclaim the message of salvation and hope through evangelism and fellowship, bringing the transforming power of God\'s love to those in need.\n',
