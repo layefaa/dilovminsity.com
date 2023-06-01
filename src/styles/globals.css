@@ -104,6 +104,10 @@ h6 {
     @apply text-dm-tertiary-white ;
 }
 
+.defaultContentContainer {
+    @apply flex gap-y-[4rem] flex-col text-center;
+}
+
 
 
 

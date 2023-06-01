@@ -5,10 +5,10 @@ import {CeraPro} from "@/fonts";
 
 const AboutChurch = () => {
   return (
-      <div className={'flex gap-y-[4rem] flex-col text-center'}>
+      <div className={'defaultContentContainer'}>
         <h2 className={`defaultHeader ${CeraPro.className} `}>{aboutChurch.header}</h2>
         <h3 className={`defaultHeaderParagraph`}>{aboutChurch.paragraph}</h3>
-        <div className={'relative w-full aspect-[0.65] md:aspect-[2.5]  '}>
+        <div className={'relative w-full aspect-[0.65] md:aspect-[2.5]'}>
           <Image fill src={aboutChurch.img} alt={'jesus'}/>
         </div>
         <div className={'flex text-left px-0 md:px-[5rem] gap-[3rem]'}>

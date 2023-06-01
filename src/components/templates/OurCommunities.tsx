@@ -1,24 +1,28 @@
 import React from 'react';
-import {homeHeaderStyle} from "@/styles";
 import {ourCommunity} from "@/constants/content";
 import Image from "next/image";
+import {CeraPro} from "@/fonts";
 
 const OurCommunities = () => {
   return (
-      <div>
-        <h2 className={`${homeHeaderStyle}`}>{ourCommunity.header}</h2>
-        <h3>{ourCommunity.paragraph}</h3>
+      <div className={'defaultContentContainer px-0 md:px-[5rem]'}>
+        <h2 className={`defaultHeader ${CeraPro.className} `}>{ourCommunity.header}</h2>
+        <h3 className={`defaultHeaderParagraph  mb-[2.5rem] `}>{ourCommunity.paragraph}</h3>
+        <div className={'flex text-left px-0 gap-[3rem]'}>
+          <div className={'w-1/2'}>
+            <div className={'relative  w-full aspect-[0.65] md:aspect-[1.5] mb-[2.5rem]'}>
+              <Image fill src={ourCommunity.img1} alt={''}/>
+            </div>
 
-        <div>
-          <div>
-            <Image width={1000} height={1000} src={ourCommunity.img1} alt={''}/>
-            <h4>{ourCommunity.section1Header}</h4>
-            <p>{ourCommunity.section1Paragraph}</p>
+            <h4 className={`defaultSectionHeader ${CeraPro.className}`}>{ourCommunity.section1Header}</h4>
+            <p className={'defaultSectionParagraph'}>{ourCommunity.section1Paragraph}</p>
           </div>
-          <div>
-            <Image width={1000} height={1000} src={ourCommunity.img2} alt={''}/>
-            <h4>{ourCommunity.section2Header}</h4>
-            <p>{ourCommunity.section2Paragraph}</p>
+          <div className={'w-1/2'}>
+            <div className={'relative  w-full aspect-[0.65] md:aspect-[1.5] mb-[2.5rem]'}>
+              <Image fill src={ourCommunity.img2} alt={''}/>
+            </div>
+            <h4 className={`defaultSectionHeader ${CeraPro.className}`}>{ourCommunity.section2Header}</h4>
+            <p className={'defaultSectionParagraph'}>{ourCommunity.section2Paragraph}</p>
           </div>
         </div>
 
