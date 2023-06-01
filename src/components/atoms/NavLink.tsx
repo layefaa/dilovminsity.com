@@ -15,7 +15,7 @@ const NavLinks = ({route, name,clickEvent}: ILink) => {
         <m.div variants={childVariants}>
           <Link
               onClick={clickEvent}
-              className={`leading-[2.5rem] underline underline-offset-[1rem] hover:text-dm-primary-green text-24 ${currentRoute === route ? "text-dm-primary-green " : "text-dm-primary-white"}`}
+              className={`leading-[2.5rem] underline underline-offset-[1rem] hover:text-dm-primary-green text-32 ${currentRoute === route ? "text-dm-primary-green " : "text-dm-primary-white"}`}
               href={route}>
             {name}
           </Link>

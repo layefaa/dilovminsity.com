@@ -105,7 +105,7 @@ h6 {
 }
 
 .defaultContentContainer {
-    @apply flex gap-y-[4rem] flex-col text-center;
+    @apply flex gap-y-[5rem] flex-col text-center;
 }
 
 

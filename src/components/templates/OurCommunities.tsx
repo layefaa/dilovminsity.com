@@ -7,10 +7,10 @@ const OurCommunities = () => {
   return (
       <div className={'defaultContentContainer px-0 md:px-[5rem]'}>
         <h2 className={`defaultHeader ${CeraPro.className} `}>{ourCommunity.header}</h2>
-        <h3 className={`defaultHeaderParagraph  mb-[2.5rem] `}>{ourCommunity.paragraph}</h3>
+        <h3 className={`defaultHeaderParagraph  mb-[3rem] `}>{ourCommunity.paragraph}</h3>
         <div className={'flex text-left px-0 gap-[3rem]'}>
           <div className={'w-1/2'}>
-            <div className={'relative  w-full aspect-[0.65] md:aspect-[1.5] mb-[2.5rem]'}>
+            <div className={'relative  w-full aspect-[0.65] md:aspect-[1.5] mb-[4rem]'}>
               <Image fill src={ourCommunity.img1} alt={''}/>
             </div>
 
@@ -18,7 +18,7 @@ const OurCommunities = () => {
             <p className={'defaultSectionParagraph'}>{ourCommunity.section1Paragraph}</p>
           </div>
           <div className={'w-1/2'}>
-            <div className={'relative  w-full aspect-[0.65] md:aspect-[1.5] mb-[2.5rem]'}>
+            <div className={'relative  w-full aspect-[0.65] md:aspect-[1.5] mb-[4rem]'}>
               <Image fill src={ourCommunity.img2} alt={''}/>
             </div>
             <h4 className={`defaultSectionHeader ${CeraPro.className}`}>{ourCommunity.section2Header}</h4>

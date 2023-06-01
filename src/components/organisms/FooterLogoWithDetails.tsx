@@ -14,11 +14,11 @@ const FooterLogoWithDetails = () => {
         <Link href={'/'} className={`relative h-[2rem] md:h-[3.5rem] aspect-[3.5] mb-[1rem] md:mb-[2rem]`}>
           <Logo/>
         </Link>
-        <div className={`flex flex-col gap-y-5`}>
+        <div className={`flex flex-col gap-y-[1.6rem] capitalize`}>
           <p>{aboutDilov.address}</p>
           <p>{aboutDilov.call_line}</p>
           <div>
-            <p>Service Time</p>
+            <p>Service Time:</p>
             <p>{aboutDilov.service_time}</p>
           </div>
         </div>

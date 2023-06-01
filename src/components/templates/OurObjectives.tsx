@@ -11,7 +11,7 @@ const OurObjectives = () => {
       <div className={'defaultContentContainer px-0 md:px-[5rem]'}>
         <h2 className={`defaultHeader ${CeraPro.className} `}>{ourObjectives.header}</h2>
         <h3 className={`defaultHeaderParagraph  mb-[2.5rem] `}>{ourObjectives.paragraph}</h3>
-        <div className={'grid grid-cols-2 grid-rows-9 gap-[5rem] text-left px-0 md:px-[15rem]'}>
+        <div className={'grid grid-cols-2 grid-rows-9 gap-[5rem] text-left px-0 md:px-[20rem]'}>
           <div className={`${image} `}>
             <Image fill src={ourObjectives.img1} alt={''}/>
           </div>

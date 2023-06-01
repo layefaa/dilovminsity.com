@@ -11,7 +11,7 @@ const Footer = () => {
           className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[8rem] pb-[4rem] md:pt-[12rem]  ${CabinetGrotesk.className}`}>
         <div className={'flex flex-col sm:flex-row sm:justify-between sm:items-center'}>
           <FooterLogoWithDetails/>
-          <div className={'flex gap-3'}>
+          <div className={'flex gap-3 w-2/3 justify-between items-center'}>
             {
               routes.map((link, i) => {
                 return (
@@ -34,6 +34,7 @@ const Footer = () => {
           {/*  /!*</m.p>*!/*/}
           {/*</div>*/}
         </div>
+        <hr className={'my-[4rem] border-red-50'}/>
         <FooterBar/>
       </footer>
   );

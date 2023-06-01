@@ -3,7 +3,7 @@ import React from 'react';
 import {useMenuContext} from "@/context/MenuContext";
 import {AnimatePresence, m} from "framer-motion";
 import {childVariants, navBoxVariants, parentVariants} from "@/utils/motion";
-import {Links} from "@/components/molecules";
+import {Links, Socials} from "@/components/molecules";
 import {Button} from "@/components/atoms";
 // import {MorvaText} from "@/components/atoms";
 // import {cateyes_email, menuHeader, menuSubHeader, phone} from "@/constants";
@@ -58,7 +58,8 @@ const NavigationBox = () => {
                 <m.div
                     variants={childVariants}
                 >
-                  <Button label={'Send Us a Message'} type={'button'}/>
+
+                    <Socials/>
 
                   {/*<ContactUsButton/>*/}
                 </m.div>
