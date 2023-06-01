@@ -25,7 +25,7 @@ const Navbar = () => {
           </NavAction>
         </div>
         <div className={`w-[40%] flex justify-center`}>
-          <Link href={'/'} className={`relative h-[2rem] md:h-[5rem] aspect-[3.5] `}>
+          <Link href={'/'} className={`relative h-[3rem] md:h-[5rem] aspect-[3] md:aspect-[3.5] `}>
             <Logo/>
           </Link>
         </div>
@@ -33,9 +33,12 @@ const Navbar = () => {
           <NavAction label={'Donate'}>
             <GiReceiveMoney/>
           </NavAction>
-          <NavAction label={'Watch'}>
-            <AiFillPlayCircle/>
-          </NavAction>
+          <div className={'hidden md:block'}>
+            <NavAction label={'Watch'}>
+              <AiFillPlayCircle/>
+            </NavAction>
+          </div>
+
         </div>
       </m.nav>
   );

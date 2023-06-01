@@ -23,7 +23,7 @@ const NavigationBox = () => {
                 exit="closed"
                 variants={navBoxVariants}
                 className={`filter fixed z-10 h-screen w-screen pt-[7.5rem] md:pt-[8rem] containerPaddingX ${isOpen ? 'flex flex-col' : 'hidden'}`}>
-              <div className={'h-[55%] pt-[20%] md:px-[8rem] md:pt-0 md:h-[50%] md:flex md:items-centers'}>
+              <div className={'h-[50%] pt-[20%] md:pt-0 md:flex md:items-centers'}>
                 <Links/>
               </div>
               <m.div
@@ -31,7 +31,7 @@ const NavigationBox = () => {
                   className={`h-[45%] pt-[25%] md:h-[50%] md:pt-[5%] text-12 md:text-20 flex flex-col items-center md:justify-start`}>
                 <m.p
                     variants={childVariants}
-                    className={`text-20 sm:text-24 md:text-32 `}>
+                    className={`text-20 sm:text-24 md:text-32 text-center `}>
                   {/*{menuHeader}*/}
                   Uphold God's standard and precepts with Dilovministry!
                 </m.p>

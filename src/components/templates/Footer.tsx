@@ -3,27 +3,31 @@
 import {FooterBar, FooterLogoWithDetails} from "@/components/organisms";
 import {routes} from "@/constants";
 import Link from "next/link";
-import {CabinetGrotesk, CeraPro} from "@/fonts";
+import {CabinetGrotesk} from "@/fonts";
 
 const Footer = () => {
   return (
       <footer
-          className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[8rem] pb-[4rem] md:pt-[12rem]  ${CabinetGrotesk.className}`}>
-        <div className={'flex flex-col sm:flex-row sm:justify-between sm:items-center'}>
+          className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[4rem] pb-[4rem] md:pt-[12rem]  ${CabinetGrotesk.className}`}>
+        <div className={'flex flex-row justify-between sm:items-center'}>
           <FooterLogoWithDetails/>
-          <div className={'flex gap-3 w-2/3 justify-between items-center'}>
-            {
-              routes.map((link, i) => {
-                return (
-                    <Link
-                        key={i}
-                        className={`leading-[2.5rem] underline underline-offset-[1rem] hover:text-dm-primary-green text-24`}
-                        href={link.route}>
-                      {link.name}
-                    </Link>
-                )
-              })
-            }
+          <div className={'md:w-2/3'}>
+            <p className={'mb-[2rem] pt-[1rem] md:mb-[4rem]'}>Links</p>
+            <div className={'flex flex-col md:flex-row gap-[2rem] md:justify-between md:items-center'}>
+
+              {
+                routes.map((link, i) => {
+                  return (
+                      <Link
+                          key={i}
+                          className={`leading-[2.5rem] underline underline-offset-[1rem] hover:text-dm-primary-green text-20 md:text-24`}
+                          href={link.route}>
+                        {link.name}
+                      </Link>
+                  )
+                })
+              }
+            </div>
           </div>
           {/*<div className={'mt-[4rem] sm:mt-0'}>*/}
           {/*  /!*<m.p initial="hidden"*!/*/}

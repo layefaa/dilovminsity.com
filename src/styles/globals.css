@@ -12,7 +12,6 @@
     padding: 0;
     margin: 0;
     font: inherit;
-    /*border: 1px solid red;*/
 }
 
 html {
@@ -89,23 +88,23 @@ h6 {
 }
 
 .defaultHeader {
-    @apply text-dm-secondary-white uppercase font-bold text-[2.4rem];
+    @apply text-dm-secondary-white uppercase font-bold text-[2rem] md:text-[2.4rem];
 }
 
 .defaultHeaderParagraph {
-    @apply text-[6.4rem] leading-[100%] font-[500] capitalize;
+    @apply text-[4rem] md:text-[6.4rem] leading-[100%] font-[500] capitalize;
 }
 
 .defaultSectionHeader {
-    @apply text-[2.4rem] leading-[100%] font-[500] mb-[1.5rem];
+    @apply text-[2rem] md:text-[2.4rem] leading-[100%] font-[500] mb-[1.5rem] capitalize;
 }
 
 .defaultSectionParagraph {
-    @apply text-dm-tertiary-white ;
+    @apply text-dm-tertiary-white text-14 md:text-20 ;
 }
 
 .defaultContentContainer {
-    @apply flex gap-y-[5rem] flex-col text-center;
+    @apply flex gap-y-[3rem] md:gap-y-[5rem] flex-col text-center px-24 sm:px-40 md:px-48 lg:px-80;
 }
 
 

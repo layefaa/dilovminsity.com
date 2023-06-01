@@ -3,19 +3,20 @@ import {ourObjectives} from "@/constants/content";
 import Image from "next/image";
 import {CeraPro} from "@/fonts";
 
-const content = 'h-fit row-span-1'
-const image = 'relative row-span-3 aspect-ratio-[4]'
+const content = 'h-fit md:row-span-1'
+const image = 'relative h-[40rem] md:h-auto w-full md:row-span-3 md:aspect-ratio-[4]'
 
 const OurObjectives = () => {
   return (
       <div className={'defaultContentContainer px-0 md:px-[5rem]'}>
         <h2 className={`defaultHeader ${CeraPro.className} `}>{ourObjectives.header}</h2>
         <h3 className={`defaultHeaderParagraph  mb-[2.5rem] `}>{ourObjectives.paragraph}</h3>
-        <div className={'grid grid-cols-2 grid-rows-9 gap-[5rem] text-left px-0 md:px-[20rem]'}>
+        <div
+            className={'h-full flex flex-col md:grid md:grid-cols-2  md:grid-rows-9 gap-[5rem] text-left px-0 md:px-[20rem]'}>
           <div className={`${image} `}>
             <Image fill src={ourObjectives.img1} alt={''}/>
           </div>
-          <div></div>
+          <div className={'hidden md:block'}></div>
           <div className={`${content}`}>
             <h4 className={`defaultSectionHeader ${CeraPro.className} w-2/3`}>{ourObjectives.section1Header}</h4>
             <p className={'defaultSectionParagraph'}>{ourObjectives.section1Paragraph}</p>
