@@ -1,7 +1,7 @@
 export const socials = {
   instagram: 'https://www.instagram.com/login/?next=https%3A%2F%2F',
   facebook: '',
-  whatapps: ''
+  whatapps: ' 234814 046 9640, 2348034121219'
 
 }
 
