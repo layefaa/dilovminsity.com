@@ -35,9 +35,11 @@ module.exports = {
 				'dm-primary-white': 'hsl(0,100%,100%)',
 				'dm-secondary-white': 'hsla(0,100%,100%,0.6)',
 				'dm-tertiary-white': 'hsla(0,100%,100%,0.8)',
+				'dm-tertiary-white2': 'hsla(0,100%,100%,0.4)',
 				'dm-primary-black': 'hsl(0,0%,0%)',
 				'dm-primary-green': '#8DC63F',
-				'dm-primary-blue': '#20A4F3'
+				'dm-primary-blue': '#20A4F3',
+				'dm-grey': '#18171A'
 			},
 			fontSize: {
 				'12': '1.2rem',

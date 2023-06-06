@@ -1,9 +1,9 @@
-import {Hero} from "@/components/templates";
+import {ContactUs} from "@/components/templates";
 
 export default function Contact() {
   return (
       <>
-        Contact
+        <ContactUs/>
       </>
   )
 }

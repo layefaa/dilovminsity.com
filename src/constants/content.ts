@@ -1,4 +1,3 @@
-
 export const homePage = {
   header: 'AN ABUNDANT, ADVENTUROUS LIFE AWAITS',
   heroParagraph: 'Put aside the stress of worldly expectation and follow God’s path to a life of abundance.'
@@ -72,4 +71,14 @@ export const ourObjectives = {
   img4: '/img/obj4.jpg',
   section4Header: 'Promote a godly life worldwide',
   section4Paragraph: 'Influence nations by spreading the gospel, fostering unity, and inspiring individuals to live in alignment with God\'s truth, love, and hope.\n',
+}
+
+export const contactUs = {
+  header1: 'Contact Us',
+  header2: 'We’d Love to \n' +
+      'hear from you.',
+  paragraph: 'We believe God wants to meet your needs and reveal His promises to you. So whatever you\'re concerned about and need prayer for—we want to be here for you!\n' +
+      'SEND YOUR REQUEST'
+
+
 }
