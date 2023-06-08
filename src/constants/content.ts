@@ -82,3 +82,14 @@ export const contactUs = {
 
 
 }
+
+
+export const partnerHero = {
+  hero: '/img/partner.jpg',
+  header: 'PARTNER WITH US',
+  paragraph: 'Join Hands to Make a Greater Impact Together'
+}
+
+export const partnerForm = {
+  header: 'Thank you for your interest in partnering with Dilovministry int\'l. Please fill out the form below to get in touch with us.'
+}
