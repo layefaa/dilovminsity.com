@@ -1,4 +1,4 @@
-import {VolunteerHero, Volunteering, VolunteeringOps} from "@/components/templates";
+import {FAQs, VolunteerHero, Volunteering, VolunteeringOps} from "@/components/templates";
 
 export default function About() {
   return (
@@ -6,6 +6,7 @@ export default function About() {
         <VolunteerHero/>
         <Volunteering/>
         <VolunteeringOps/>
+        <FAQs/>
       </div>
   )
 }

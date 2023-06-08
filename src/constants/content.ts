@@ -121,3 +121,26 @@ export const volunteering_ops = {
   section4Paragraph: 'Assist with creating content for our website, social media, and other marketing materials. Spread our message, engage our audience, and amplify our impact.',
 
 }
+
+export const faqs = [
+  {
+    Q: 'How much time do I need to commit to volunteering?',
+    A: 'We ask that volunteers commit to at least 4 hours per month, but this may vary depending on the specific role. We value your contribution and understand the need for flexibility'
+  },
+  {
+    Q: 'Is there a dress code for volunteers?',
+    A: 'Yes, we ask that volunteers dress appropriately for the specific volunteer role they are serving in. We may provide guidelines or specific requirements based on the nature of the opportunity'
+  },
+  {
+    Q: 'Can I volunteer with a friend or family member?',
+    A: 'Absolutely! We welcome volunteers who want to serve together. Just make sure to indicate your interest in volunteering with someone specific during the application process, and we will do our best to accommodate your request.'
+  },
+  {
+    Q: 'Are there any specific skills or qualifications required to volunteer?',
+    A: 'While certain volunteer opportunities may benefit from specific skills or experience, we welcome individuals from all backgrounds and skill sets. Our volunteer program provides training and support to help you succeed in your role, regardless of your previous experience.'
+  },
+  {
+    Q: 'Can I volunteer if I have limited availability or a busy schedule?',
+    A: 'Absolutely! We understand that everyone has different commitments and availability. We offer various volunteer opportunities that can accommodate different schedules, including one-time events or flexible time slots. We appreciate any amount of time you can contribute, and we value your dedication to making a difference in the time you have available.'
+  }
+]
