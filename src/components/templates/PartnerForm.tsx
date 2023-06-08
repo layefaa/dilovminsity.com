@@ -46,7 +46,7 @@ const PartnerForm = () => {
         })
   })
   return (
-      <div className={'defaultContentContainer px-0 md:px-[5rem] -mt-[5rem] md:-mt-[10rem]'}>
+      <div className={'defaultContentContainer  -mt-[5rem] md:-mt-[10rem]'}>
         <h2 className={` ${CeraPro.className} text-[2rem] `}>{partnerForm.header}</h2>
         {/*<div className={'flex flex-col md:flex-row text-left px-0 gap-[3rem] '}>*/}
         {/*  <div className={'w-full md:w-1/2'}>*/}

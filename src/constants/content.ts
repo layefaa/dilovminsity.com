@@ -93,3 +93,31 @@ export const partnerHero = {
 export const partnerForm = {
   header: 'Thank you for your interest in partnering with Dilovministry int\'l. Please fill out the form below to get in touch with us.'
 }
+
+export const volunteerHero = {
+  hero: '/img/volunteer.jpg',
+  header: 'Join Our Team and Make a Difference!',
+}
+
+export const volunteering_service = {
+  header: 'VOLUNTEERING SERVICES',
+  paragraph: 'Welcome to our volunteer program! We believe that volunteers are an essential part of our ministry and play a crucial role in helping us achieve our mission. Whether you have a few hours to spare or are looking for a more long-term commitment, there are many ways to get involved and make a difference. By joining our team, you\'ll have the opportunity to positively impact lives, contribute to our programs, and be a catalyst for change. Together, we can create a better world filled with love and hope.'
+}
+
+export const volunteering_ops = {
+  header: 'VOLUNTEER OPPORTUNITIES',
+  paragraph: 'Explore these opportunities and find the one that aligns with your skills, interests, and availability. Together, we can make a difference!',
+  img1: '/img/event.jpg',
+  section1Header: 'Event Planning',
+  section1Paragraph: 'Proclaim the message of salvation and hope through evangelism and fellowship, bringing the transforming power of God\'s love to those in need.\n',
+  img2: '/img/direct.jpg',
+  section2Header: 'Direct Service Work',
+  section2Paragraph: 'Assist with our programs that directly serve our clients and community members. Make a direct impact by offering support, guidance, and resources.',
+  img3: '/img/admin.jpg',
+  section3Header: 'Administrative Support',
+  section3Paragraph: 'Help us with office tasks like data entry, answering phones, and filing. Play a vital role in ensuring smooth operations behind the scenes.',
+  img4: '/img/market.jpg',
+  section4Header: 'Marketing And Communications',
+  section4Paragraph: 'Assist with creating content for our website, social media, and other marketing materials. Spread our message, engage our audience, and amplify our impact.',
+
+}
