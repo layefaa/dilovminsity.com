@@ -89,7 +89,15 @@ h6 {
 }
 
 .defaultHeader {
-    @apply text-dm-secondary-white uppercase font-bold text-[2rem] md:text-[2.4rem];
+    @apply uppercase font-bold text-[2rem] md:text-[2.4rem];
+}
+
+.defaultHeaderLight {
+    @apply text-dm-secondary-white;
+}
+
+.defaultHeaderDark {
+    @apply text-dm-secondary-black;
 }
 
 .defaultHeaderParagraph {
@@ -101,11 +109,20 @@ h6 {
 }
 
 .defaultSectionParagraph {
-    @apply text-dm-tertiary-white text-14 md:text-20 ;
+    @apply text-14 md:text-20 ;
 }
 
+.defaultSectionParagraphLight {
+    @apply text-dm-tertiary-white ;
+}
+
+.defaultSectionParagraphDark {
+    @apply text-dm-tertiary-black ;
+}
+
+
 .defaultContentContainer {
-    @apply flex gap-y-[3rem] md:gap-y-[5rem] flex-col text-center px-24 sm:px-40 md:px-48 lg:px-80;
+    @apply flex gap-y-[3rem] md:gap-y-[5rem] flex-col text-center px-24 sm:px-40 md:px-48 lg:px-80 py-[7.5rem] md:py-[15rem];
 }
 
 
