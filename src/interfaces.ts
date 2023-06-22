@@ -1,6 +1,8 @@
 export interface IMenuContext {
   isOpen: boolean,
-  toggleMenu: () => void
+  toggleMenu: () => void,
+  isDonateOpen: boolean,
+  toggleDonate: () => void,
 }
 
 export interface ISocialIcon {

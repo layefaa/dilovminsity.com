@@ -11,7 +11,7 @@ import {useMenuContext} from "@/context/MenuContext";
 
 
 const Navbar = () => {
-  const {toggleMenu} = useMenuContext()
+  const {toggleMenu, toggleDonate} = useMenuContext()
   return (
       <m.nav
           variants={navVariants}
@@ -30,7 +30,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className={`w-[30%] justify-end flex gap-5 `}>
-          <NavAction label={'Donate'}>
+          <NavAction clickEvent={() => toggleDonate()} label={'Donate'}>
             <GiReceiveMoney/>
           </NavAction>
           <div className={'hidden md:block'}>

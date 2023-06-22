@@ -9,8 +9,15 @@ const MenuContextProvider = ({children}: { children: ReactNode }) => {
   const toggleMenu = () => {
     toggle()
   }
+
+  const [isDonateOpen, toggleD] = useCycle<boolean>(false, true)
+
+  const toggleDonate = () => {
+    toggleD()
+  }
+
   return (
-      <MenuContext.Provider value={{isOpen, toggleMenu}}>
+      <MenuContext.Provider value={{isOpen, toggleMenu, isDonateOpen, toggleDonate}}>
         {children}
       </MenuContext.Provider>
   );
