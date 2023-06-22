@@ -34,7 +34,7 @@ export const volunteerPage = {
 
 
 export const aboutChurch = {
-  header: 'about church',
+  header: 'ABOUT MINISTRY',
   paragraph: 'Seek First the Kingdom of God',
   img: '/img/jesus.jpg',
   section1Header: 'Dilov Ministries',

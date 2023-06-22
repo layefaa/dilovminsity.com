@@ -8,7 +8,7 @@ import {CabinetGrotesk} from "@/fonts";
 const Footer = () => {
   return (
       <footer
-          className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[4rem] pb-[4rem] md:pt-[12rem]  ${CabinetGrotesk.className}`}>
+          className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[4rem] pb-[4rem] md:pt-[7rem]  ${CabinetGrotesk.className}`}>
         <div className={'flex flex-row justify-between sm:items-center'}>
           <FooterLogoWithDetails/>
           <div className={'md:w-2/3'}>

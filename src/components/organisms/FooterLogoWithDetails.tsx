@@ -16,7 +16,7 @@ const FooterLogoWithDetails = () => {
           <Logo/>
         </Link>
         <div className={`flex flex-col gap-y-[1.2rem] md:gap-y-[1.6rem]  capitalize text-16 md:text-20`}>
-          <p>{aboutDilov.address}</p>
+          <p className={'w-full md:w-2/3'}>{aboutDilov.address}</p>
           <p>{aboutDilov.call_line}</p>
           <div>
             <p>Service Time:</p>
