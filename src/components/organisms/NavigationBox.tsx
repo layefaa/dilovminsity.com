@@ -52,7 +52,7 @@ const NavigationBox = () => {
                   </p>
                   <p className={`mt-4 md:mt-6`}>
                     {/*{phone}*/}
-                    070568423457
+                    0814 046 9640
                   </p>
                 </m.div>
                 <m.div
