@@ -16,25 +16,31 @@ const Hero = () => {
       <div className={'relative h-screen w-full '}>
         {/*<div className={'relative h-screen w-full '} >*/}
         <Swiper
-            className={'absolute h-screen w-full '}
             autoplay
             loop
             slidesPerView={1}
             // pagination={CarouselPagination}
             modules={[Pagination]}
+            className={'relative h-screen w-full '}
         >
           {/*{*/}
           {/*  [1, 2, 3].map((_, index) => {*/}
           {/*        return (*/}
-          <SwiperSlide className={'relative h-screen w-full'}>
+          <SwiperSlide>
+            {/*<div className={'relative h-screen w-full'}>*/}
             <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
+            {/*</div>*/}
           </SwiperSlide>
-          <SwiperSlide className={'relative h-screen w-full'}>
-            <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
-          </SwiperSlide>
-          <SwiperSlide className={'relative h-screen w-full'}>
-            <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
-          </SwiperSlide>
+          <SwiperSlide>
+          {/*<div className={'relative h-screen w-full'}>*/}
+          <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
+          {/*</div>*/}
+        </SwiperSlide>
+          <SwiperSlide>
+          {/*<div className={'relative h-screen w-full'}>*/}
+          <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
+          {/*</div>*/}
+        </SwiperSlide>
           {/*        )*/}
           {/*      }*/}
           {/*  )*/}
