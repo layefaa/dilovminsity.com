@@ -1,52 +1,49 @@
 'use client'
 import React from 'react';
-import Image from "next/image";
-import {hero} from "@/constants/images";
 import {mission} from "@/constants/content";
 import {CabinetGrotesk, CeraPro} from "@/fonts";
 import {Button} from "@/components/atoms";
 import {useRouter} from 'next/navigation';
 import {Swiper, SwiperSlide} from "swiper/react";
 import SwiperCore, {Autoplay, Pagination} from "swiper";
+import {CarouselPagination} from "@/utils/CarouselPagination";
 
 const Hero = () => {
-  SwiperCore.use([Pagination, Autoplay])
+  SwiperCore.use([Autoplay])
   const router = useRouter();
   return (
       <div className={'relative h-screen w-full '}>
-        {/*<div className={'relative h-screen w-full '} >*/}
-        <Swiper
-            autoplay
-            loop
-            slidesPerView={1}
-            // pagination={CarouselPagination}
-            modules={[Pagination]}
-            className={'relative h-screen w-full '}
-        >
-          {/*{*/}
-          {/*  [1, 2, 3].map((_, index) => {*/}
-          {/*        return (*/}
-          <SwiperSlide>
-            {/*<div className={'relative h-screen w-full'}>*/}
-            <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
-            {/*</div>*/}
-          </SwiperSlide>
-          <SwiperSlide>
-          {/*<div className={'relative h-screen w-full'}>*/}
-          <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
-          {/*</div>*/}
-        </SwiperSlide>
-          <SwiperSlide>
-          {/*<div className={'relative h-screen w-full'}>*/}
-          <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
-          {/*</div>*/}
-        </SwiperSlide>
-          {/*        )*/}
-          {/*      }*/}
-          {/*  )*/}
-          {/*}*/}
-        </Swiper>
-        {/*</div>*/}
+        <div className="w-full h-full">
+          <Swiper
+              autoplay
+              // loop
+              slidesPerView={1}
+              // pagination={CarouselPagination}
+              // modules={[Pagination]}
+              // className="w-full h-full "
+          >
+            {/*{*/}
+            {/*  [1, 2, 3].map((_, index) => {*/}
+            {/*        return (*/}
+            {/*<SwiperSlide>*/}
+            {/*  <div className="w-screen relative h-screen">*/}
+            {/*    <Image sizes="100vw" fill className={'object-cover object-bottom'} src={hero} alt={''}/>*/}
+            {/*  </div>*/}
+            {/*</SwiperSlide>*/}
+            <SwiperSlide>
+              <div className="w-screen relative h-screen">
+                <div className={'h-full w-full bg-blue-500'}></div>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="w-screen relative h-screen">
+                <div className={'h-full w-full bg-red-500'}></div>
+              </div>
+            </SwiperSlide>
+
+          </Swiper>
+        </div>
+
 
         <div
             className={'absolute h-full w-full flex flex-col justify-center text-center items-center text-dm-primary-white px-24 sm:px-40 md:px-48 lg:px-80 '}>
