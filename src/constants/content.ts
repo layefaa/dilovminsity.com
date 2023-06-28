@@ -40,7 +40,9 @@ export const aboutChurch = {
   section1Header: 'Dilov Ministries',
   section1Paragraph: 'Welcome to Dilov Ministries, a community dedicated to propagating the gospel of Truth, Love, and Hope to mankind. We are a group of talented and gifted individuals united by our shared vision to transform the world into a better place through love and faith. Upholding God\'s Standard Precepts.',
   section2Header: 'Our Mission',
-  section2Paragraph: 'At Dilov Ministries, our mission is to save lives both locally and globally, enriching the spiritual and physical well-being of people, and guiding them towards a life filled with love and purpose. We are committed to upholding God\'s standard precepts in everythingwe do.'
+  section2Paragraph: 'At Dilov Ministries, our mission is to save lives both locally and globally, enriching the spiritual and physical well-being of people, and guiding them towards a life filled with love and purpose. We are committed to upholding God\'s standard precepts in everythingwe do.',
+  section3Header: 'Our Vision',
+  section3Paragraph: 'Raising disciples of Christ as ICONs to nations and communities; fulfilling dominion over the earth.'
 
 }
 

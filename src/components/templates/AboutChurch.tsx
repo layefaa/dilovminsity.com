@@ -20,6 +20,10 @@ const AboutChurch = () => {
             <h4 className={`defaultSectionHeader ${CeraPro.className}`}>{aboutChurch.section2Header}</h4>
             <p className={'defaultSectionParagraph defaultSectionParagraphDark '}>{aboutChurch.section2Paragraph}</p>
           </div>
+          <div>
+            <h4 className={`defaultSectionHeader ${CeraPro.className}`}>{aboutChurch.section3Header}</h4>
+            <p className={'defaultSectionParagraph defaultSectionParagraphDark '}>{aboutChurch.section3Paragraph}</p>
+          </div>
         </div>
 
       </div>
