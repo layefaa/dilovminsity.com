@@ -2,7 +2,7 @@ import {FAQs, VolunteerHero, Volunteering, VolunteeringOps} from "@/components/t
 
 export default function About() {
   return (
-      <div className={'flex flex-col gap-y-[7.5rem] md:gap-y-[15rem]'}>
+      <div className={'flex flex-col'}>
         <VolunteerHero/>
         <Volunteering/>
         <VolunteeringOps/>

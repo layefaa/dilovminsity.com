@@ -6,10 +6,10 @@ import {Accordion} from "@/components/atoms";
 
 const FAQs = () => {
   return (
-      <div className={'defaultContentContainer'}>
-        <h1 className={`text-40 leading-[100%] font-bold ${CabinetGrotesk.className} `}>Frequently Asked
+      <div className={'defaultContentContainer bg-dm-primary-white text-dm-primary-black'}>
+        <h1 className={`text-40 leading-[100%] font-bold ${CabinetGrotesk.className}  `}>Frequently Asked
           Questions</h1>
-        <p className={`${CeraPro.className}`}>Can’t find answers here ? <span className={'text-dm-primary-green'}><Link
+        <p className={`${CeraPro.className} defaultHeaderDark`}>Can’t find answers here ? <span className={'text-dm-primary-green'}><Link
             href={'/contact'}>Contact Us</Link></span></p>
         <div>
           {faqs.map((f, i) => {
