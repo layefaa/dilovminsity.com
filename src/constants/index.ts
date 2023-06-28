@@ -24,7 +24,7 @@ export const routes = [
   }
 ]
 export const aboutDilov = {
-  address: 'Plot 10 honourable kola penegrine close,'+ '\n'+ ' Rockstone Estate, Bakery Bus, Badore, Ajah, Lagos, Nigeria',
+  address: 'Plot 10 honourable kola penegrine close,'+ '\n'+ ' Rockstone Estate, Bakery Bus, Badore, Ajah, Lagos, Nigeria.',
   call_line: ' +2348140469640, +2348034121219',
   service_time: '10am - 12am'
 
