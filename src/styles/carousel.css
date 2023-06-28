@@ -5,8 +5,9 @@
 .swiper-pagination-bullet {
     width: 0.863rem;
     height: 0.863rem;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgb(255, 255, 255);
     border-radius: 1.8rem;
+    opacity: 1;
 
     /* Inside auto layout */
 
@@ -16,8 +17,8 @@
 }
 
 .swiper-pagination-bullet-active {
-    width: 3.022rem;
+    width: 0.863rem;
     height: 0.863rem;
     order: 0;
-    background: #FFFFFF !important;
+    background: #8DC63F !important;
 }

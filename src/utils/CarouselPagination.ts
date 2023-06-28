@@ -1,4 +1,4 @@
-// import "swiper/css/pagination";
+import "swiper/css/pagination";
 import '@/styles/carousel.css'
 
 
