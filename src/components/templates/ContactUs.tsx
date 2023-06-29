@@ -2,8 +2,6 @@
 import React from 'react';
 import {m} from "framer-motion";
 import {childVariants2, fadeIn, parentVariants2} from "@/utils/motion";
-// import styles from "@/styles";
-// import {contactUsParagraph, letsCreateMemories} from "@/constants";
 import {ContactUsForm} from "@/components/organisms";
 import {CeraPro} from "@/fonts";
 import {contactUs} from "@/constants/content";
@@ -16,23 +14,18 @@ const ContactUs = () => {
                viewport={{once: true}}
                variants={parentVariants2(1)}
                className={'mt-0 lg:mt-[4rem] pr-0 lg:pr-20 xl:pr-80 lg:w-2/5 2xl:w-1/2'}>
-          {/*<h3 className={``}>{aboutChurch.paragraph}</h3>*/}
-          {/*${styles.sectionHeader}*/}
           <m.h1 variants={childVariants2}
                 className={`
                defaultHeader ${CeraPro.className}
                 leading-[165%]`}>
             {contactUs.header1}
-            {/*{letsCreateMemories}*/}
           </m.h1>
-          {/*${styles.sectionParagraph}*/}
           <m.h3 variants={childVariants2}
                 className={`
               defaultHeaderParagraph
                 mb-[4rem] `}>
             {contactUs.header2}
           </m.h3>
-          {/*defaultHeaderParagraph*/}
           <m.p variants={childVariants2}
                className={`
              ${CeraPro.className} 
