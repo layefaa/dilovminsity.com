@@ -33,6 +33,8 @@ export interface IInput {
   placeholder?: string
   name: string
   multiline?: boolean
+  disabled?: boolean
   id: string
+  options?: any
 
 }

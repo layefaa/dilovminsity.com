@@ -32,3 +32,23 @@ export const aboutDilov = {
 
 export const dilov_email = ''
 
+export const partnerOptions = [
+  {
+    name: ''
+  }, {
+    name: 'Donations'
+  },
+  {
+    name: 'Collaboration'
+  },
+  {
+    name: 'Sponsorship'
+  },
+  {
+    name: 'Volunteerism'
+  },
+  {
+    name: 'Other'
+  }
+]
+
