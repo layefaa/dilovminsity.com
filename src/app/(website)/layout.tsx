@@ -13,7 +13,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
       <MenuContextProvider>
         <LazyMotion features={domAnimation}>
           <Header/>
-          <main className={`${CabinetGrotesk.className} mb-[7.5rem] md:mb-[15rem] leading-[120%] text-20 w-full  `}>
+          <main className={`${CabinetGrotesk.className} mb-[3.5rem] md:mb-[7.5rem] leading-[120%] text-20 w-full  `}>
             {children}
           </main>
           <Footer/>

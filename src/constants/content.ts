@@ -96,6 +96,11 @@ export const partnerForm = {
   header: 'Thank you for your interest in partnering with Dilovministry int\'l. Please fill out the form below to get in touch with us.'
 }
 
+export const ourGalleries = {
+  header: 'OUR GALLERY',
+  paragraph: 'Life At Dilov'
+}
+
 export const volunteerHero = {
   hero: '/img/volunteer.jpg',
   header: 'Join Our Team and Make a Difference!',
