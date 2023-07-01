@@ -2,7 +2,7 @@
 import React from 'react';
 import {CeraPro} from "@/fonts";
 import {ourGalleries} from "@/constants/content";
-import SwiperCore, {Autoplay, Navigation} from "swiper";
+import {Navigation} from "swiper";
 import {Swiper, SwiperSlide} from "swiper/react";
 import 'swiper/css';
 import Image from "next/image";
@@ -10,7 +10,6 @@ import {hero} from "@/constants/images";
 import "swiper/css/navigation";
 
 const OurGallery = () => {
-  SwiperCore.use([Autoplay])
 
   return (
       <div className={'defaultContentContainer px-0 md:px-[5rem]'}>
@@ -21,12 +20,13 @@ const OurGallery = () => {
               navigation={true} modules={[Navigation]}
               spaceBetween={30}
               slidesPerView={4.5}
-              className={'mb-[3rem]  md:mb-[5rem]'}
+              className={'mb-[3rem] text-left  md:mb-[5rem]'}
           >
             <SwiperSlide>
               <div className=" relative h-[25rem] w-full">
                 <Image fill className={'object-cover object-bottom'} src={hero} alt={''}/>
               </div>
+              <p className={`pt-[1rem] ${CeraPro.className} capitalise text-dm-primary-green`}>Video Categories</p>
             </SwiperSlide>
           </Swiper>
           <div
@@ -82,6 +82,10 @@ const OurGallery = () => {
               </div>
             </SwiperSlide>
           </Swiper>
+        </div>
+        <div className={'text-center text-24'}>
+          <p className={'defaultHeaderLight  mb-[2rem]'}>For we are God’s fellow workers; you are God’s field, God’s building.</p>
+          <p> 1 Corinthians 3:9</p>
         </div>
 
       </div>

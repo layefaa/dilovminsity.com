@@ -33,11 +33,11 @@ const Navbar = () => {
           <NavAction clickEvent={() => toggleDonate()} label={'Donate'}>
             <GiReceiveMoney/>
           </NavAction>
-          <div className={'hidden md:block'}>
-            <NavAction label={'Watch'}>
-              <AiFillPlayCircle/>
-            </NavAction>
-          </div>
+          {/*<div className={'hidden md:block'}>*/}
+          {/*  <NavAction label={'Watch'}>*/}
+          {/*    <AiFillPlayCircle/>*/}
+          {/*  </NavAction>*/}
+          {/*</div>*/}
 
         </div>
       </m.nav>
