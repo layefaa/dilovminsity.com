@@ -2,24 +2,33 @@ import sendgrid from "@sendgrid/mail";
 import {NextResponse} from "next/server";
 import {dilov_email} from "@/constants";
 
-type EmailType = {
-  first_name?: string,
-  last_name?: string,
+type PartnerType = {
+  name?: string,
   email?: string,
-  message?: string,
+  organization?: string,
+  website?: string,
+  address?: string,
+  phone?: string,
+  type?: string,
+  other?: string,
 }
 
 
 export async function POST(req: Request) {
-  const {first_name, last_name, email, message}: EmailType = await req.json()
+  const {name, email, organization, website, other, phone, type, address}: PartnerType = await req.json()
   const msg = {
     to: dilov_email,
     from: dilov_email,
-    subject: 'New Client From Website',
+    subject: 'New Partner From Website',
     html: `
     <div style="border: 1px solid black; border-radius: 10px;padding: 40px">
-        <h3> Client's Name is ${first_name} ${last_name} </h3>
-        <p>${message}</p>
+        <h3> Client's Name is ${name} </h3>
+        <p>Organisation Name :${organization}</p>
+        <p>Address : ${address}</p>
+        <p>Website : ${(website)}</p>
+        <p>Phone : ${phone}</p>
+        <p>Partner Type : ${type}</p>
+        <p>Other Partner Type : ${other}</p>
         <strong>Email : <a href={mailto:${email}}>${email}</a> </strong>
     </div>
     `

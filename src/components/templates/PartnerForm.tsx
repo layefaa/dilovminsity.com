@@ -13,7 +13,7 @@ const PartnerForm = () => {
   const [isSuccess, setSuccess] = useState(false)
   const [isError, setError] = useState(false)
   const sendMail = async (data: FieldValues) => {
-    const res = await fetch('/api/mail',
+    const res = await fetch('/api/partner',
         {
           method: 'POST',
           headers: {'Content-Type': 'application/json'},
