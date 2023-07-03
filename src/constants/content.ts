@@ -156,6 +156,10 @@ export const faqs = [
 export const videos = [
   {
     name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv5.mp4'
+  },
+  {
+    name: 'Youth Empowerment Program',
     url: '/Unsorted/ypv.mp4'
   },
   {
@@ -165,15 +169,12 @@ export const videos = [
   {
     name: 'Youth Empowerment Program',
     url: '/Unsorted/ypv2.mp4'
-  },  {
+  }, {
     name: 'Youth Empowerment Program',
     url: '/Unsorted/ypv3.mp4'
-  },  {
+  }, {
     name: 'Youth Empowerment Program',
     url: '/Unsorted/ypv4.mp4'
-  },  {
-    name: 'Youth Empowerment Program',
-    url: '/Unsorted/ypv5.mp4'
   },
 
 ]

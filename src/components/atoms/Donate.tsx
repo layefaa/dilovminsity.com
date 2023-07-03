@@ -9,7 +9,7 @@ const Donate = () => {
   return (
       <div
           className={`filter fixed right-0 z-10 h-screen w-screen md:w-[35rem] pt-[7.5rem] md:pt-[8rem] containerPaddingX ${isDonateOpen ? 'flex flex-col' : 'hidden'}`}>
-        <div onClick={()=> toggleDonate() } className={'flex justify-end mb-24'}>
+        <div onClick={()=> toggleDonate() } className={'flex  justify-end mb-24'}>
           <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <g id="ion:close">
               <path id="Vector"

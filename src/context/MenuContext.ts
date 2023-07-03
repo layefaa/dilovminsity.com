@@ -1,10 +1,19 @@
 import {createContext, useContext} from "react";
 import {IMenuContext} from "@/interfaces";
+
 export const MenuContext = createContext<IMenuContext>({
   isOpen: false,
-  toggleMenu() {},
+  toggleMenu() {
+  },
   isDonateOpen: false,
-  toggleDonate() {},
+  toggleDonate() {
+  },
+  isVideo: false,
+  toggleVideo(): void {
+  },
+  video: {},
+  setVideo(x): void{}
+
 })
 
 export const useMenuContext = () => useContext(MenuContext)

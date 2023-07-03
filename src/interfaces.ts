@@ -3,6 +3,11 @@ export interface IMenuContext {
   toggleMenu: () => void,
   isDonateOpen: boolean,
   toggleDonate: () => void,
+  video?: object
+  toggleVideo : () => void
+  // @ts-ignore
+  setVideo: (x) => void
+  isVideo: boolean
 }
 
 export interface ISocialIcon {
