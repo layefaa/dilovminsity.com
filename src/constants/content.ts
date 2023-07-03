@@ -151,3 +151,29 @@ export const faqs = [
     A: 'Absolutely! We understand that everyone has different commitments and availability. We offer various volunteer opportunities that can accommodate different schedules, including one-time events or flexible time slots. We appreciate any amount of time you can contribute, and we value your dedication to making a difference in the time you have available.'
   }
 ]
+
+
+export const videos = [
+  {
+    name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv.mp4'
+  },
+  {
+    name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv1.mp4'
+  },
+  {
+    name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv2.mp4'
+  },  {
+    name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv3.mp4'
+  },  {
+    name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv4.mp4'
+  },  {
+    name: 'Youth Empowerment Program',
+    url: '/Unsorted/ypv5.mp4'
+  },
+
+]
