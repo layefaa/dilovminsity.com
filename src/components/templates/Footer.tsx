@@ -9,9 +9,9 @@ const Footer = () => {
   return (
       <footer
           className={`bg-dm-primary-black text-dm-primary-white containerPaddingX flex flex-col pt-[4rem] pb-[4rem] md:pt-[7rem]  ${CabinetGrotesk.className}`}>
-        <div className={'flex flex-row justify-between sm:items-center'}>
+        <div className={'flex flex-col  md:flex-row justify-between sm:items-center'}>
           <FooterLogoWithDetails/>
-          <div className={'md:w-2/3'}>
+          <div className={'pt-[3rem] md:pt-0 md:w-2/3'}>
             <p className={'mb-[2rem] pt-[1rem] md:mb-[4rem]'}>Links</p>
             <div className={'flex flex-col md:flex-row gap-[2rem] md:justify-between md:items-center'}>
 

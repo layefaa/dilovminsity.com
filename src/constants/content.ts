@@ -36,7 +36,7 @@ export const volunteerPage = {
 export const aboutChurch = {
   header: 'ABOUT MINISTRY',
   paragraph: 'Seek First the Kingdom of God',
-  img: '/img/jesus.jpg',
+  img: '/img/jesus.webp',
   section1Header: 'Dilov Ministries',
   section1Paragraph: 'Welcome to Dilov Ministries, a community dedicated to propagating the gospel of Truth, Love, and Hope to mankind. We are a group of talented and gifted individuals united by our shared vision to transform the world into a better place through love and faith. Upholding God\'s Standard and Precept.',
   section2Header: 'Our Mission',
@@ -49,10 +49,10 @@ export const aboutChurch = {
 export const ourCommunity = {
   header: 'our Community',
   paragraph: 'Where Talents Flourish, Lives are \n' + 'Transformed, and Hearts Find Belonging',
-  img1: '/img/youth.jpg',
+  img1: '/img/youth.webp',
   section1Header: 'Youth Ministry',
   section1Paragraph: ' Welcome to the Youth Ministry at Dilov Ministries! We are dedicated to empowering young individuals to discover their purpose, grow in their faith, and make a positive impact in the world. Our ministry is tailored specifically for young people, providing a safe and supportive environment where they can explore their spirituality, build meaningful connections, and navigate the challenges of their journey.\n',
-  img2: '/img/children.jpg',
+  img2: '/img/children.webp',
   section2Header: 'Children Ministry',
   section2Paragraph: ' Welcome to the Children\'s Ministry at Dilov Ministries! We are dedicated to creating a nurturing and engaging environment where children can grow in their faith, develop a strong foundation, and experience God\'s love. Our ministry is tailored specifically for children, providing a place where they can explore their spirituality, learn biblical values, and build lasting friendships.\n'
 
@@ -61,16 +61,16 @@ export const ourCommunity = {
 export const ourObjectives = {
   header: 'OUR OBJECTIVES',
   paragraph: 'Empowering Change, Spreading Love, \n' + ' Transforming Lives.',
-  img1: '/img/obj1.jpg',
+  img1: '/img/obj1.webp',
   section1Header: ' Reach out to lost souls',
   section1Paragraph: 'Proclaim the message of salvation and hope through evangelism and fellowship, bringing the transforming power of God\'s love to those in need.\n',
-  img2: '/img/obj2.jpg',
+  img2: '/img/obj2.webp',
   section2Header: '  Contribute to the welfare of people',
   section2Paragraph: ' Extend love, charity, and support both locally and globally, uplifting lives and meeting the physical and emotional needs of individuals and communities.',
-  img3: '/img/obj3.jpg',
+  img3: '/img/obj3.webp',
   section3Header: '   Establish the right standards of living',
   section3Paragraph: 'Advocate for righteousness, integrity, and moral values, promoting a life of purpose, excellence, and godly principles.',
-  img4: '/img/obj4.jpg',
+  img4: '/img/obj4.webp',
   section4Header: 'Promote a godly life worldwide',
   section4Paragraph: 'Influence nations by spreading the gospel, fostering unity, and inspiring individuals to live in alignment with God\'s truth, love, and hope.\n',
 }
@@ -87,7 +87,7 @@ export const contactUs = {
 
 
 export const partnerHero = {
-  hero: '/img/partner.jpg',
+  hero: '/img/partner.webp',
   header: 'PARTNER WITH US',
   paragraph: 'Join Hands to Make a Greater Impact Together'
 }
@@ -102,8 +102,8 @@ export const ourGalleries = {
 }
 
 export const volunteerHero = {
-  hero1: '/img/volunteer.jpg',
-  hero2: '/Unsorted/yp2.jpg',
+  hero1: '/img/volunteer.webp',
+  hero2: '/Unsorted/yp2.webp',
   header: 'Join Our Team and Make a Difference!',
 }
 
@@ -115,16 +115,16 @@ export const volunteering_service = {
 export const volunteering_ops = {
   header: 'VOLUNTEER OPPORTUNITIES',
   paragraph: 'Explore these opportunities and find the one that aligns with your skills, interests, and availability. Together, we can make a difference!',
-  img1: '/img/event.jpg',
+  img1: '/img/event.webp',
   section1Header: 'Event Planning',
   section1Paragraph: 'Proclaim the message of salvation and hope through evangelism and fellowship, bringing the transforming power of God\'s love to those in need.\n',
-  img2: '/img/direct.jpg',
+  img2: '/img/direct.webp',
   section2Header: 'Direct Service Work',
   section2Paragraph: 'Assist with our programs that directly serve our clients and community members. Make a direct impact by offering support, guidance, and resources.',
-  img3: '/img/admin.jpg',
+  img3: '/img/admin.webp',
   section3Header: 'Administrative Support',
   section3Paragraph: 'Help us with office tasks like data entry, answering phones, and filing. Play a vital role in ensuring smooth operations behind the scenes.',
-  img4: '/img/market.jpg',
+  img4: '/img/market.webp',
   section4Header: 'Marketing And Communications',
   section4Paragraph: 'Assist with creating content for our website, social media, and other marketing materials. Spread our message, engage our audience, and amplify our impact.',
 
@@ -155,15 +155,19 @@ export const faqs = [
 
 
 export const videos = [
-  {
-    name: 'Social Outreach',
-    url: '/Unsorted/ypv5.mp4'
-  },
+
   {
     name: 'The COMB conference',
     url: '/Unsorted/ypv.mp4'
   },
   {
+    name: 'Social Outreach',
+    url: '/Unsorted/ypv5.mp4'
+  },
+  {
+    name: 'The COMB conferenc',
+    url: '/Unsorted/ibrahim.mp4'
+  },{
     name: 'The COMB conference',
     url: '/Unsorted/ypv1.mp4'
   },
