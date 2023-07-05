@@ -102,7 +102,8 @@ export const ourGalleries = {
 }
 
 export const volunteerHero = {
-  hero: '/img/volunteer.jpg',
+  hero1: '/img/volunteer.jpg',
+  hero2: '/Unsorted/yp2.jpg',
   header: 'Join Our Team and Make a Difference!',
 }
 
