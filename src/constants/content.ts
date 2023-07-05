@@ -165,7 +165,7 @@ export const videos = [
     url: '/Unsorted/ypv5.mp4'
   },
   {
-    name: 'The COMB conferenc',
+    name: 'The COMB conference',
     url: '/Unsorted/ibrahim.mp4'
   },{
     name: 'The COMB conference',
