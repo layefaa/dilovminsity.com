@@ -33,7 +33,9 @@ const OurGallery = () => {
           </div>
           <div className={'flex w-full h-full justify-center items-center'}>
             {/*@ts-ignore*/}
-            <video ref={videoRef} controls src={video.url}></video>
+            <video ref={videoRef} controls src={video.url} buffering="metadata">
+              <source src="movie.mp4" type="video/mp4"/>
+            </video>
           </div>
         </div>
         <div className={'defaultContentContainer px-0 md:px-[5rem]'}>
@@ -49,7 +51,14 @@ const OurGallery = () => {
             </div>
 
           </div>
-          <div className={'block md:hidden'}>
+          <div className={'block md:hidden  mb-[1.5rem]  md:mb-[3rem]'}>
+            <div className={'mb-[3rem] text-left  md:mb-[5rem]'}>
+              <Carousel pictures={pictures} slides={1} type={'pic'} name={'test'}/>
+            </div>
+            <div className={'text-left'}>
+              <h4 className={`pb-[1rem] uppercase ${CeraPro.className} defaultHeaderLight `}>Videos</h4>
+              <Carousel videos={videos} slides={1} type={'vid'} name={'test'}/>
+            </div>
           </div>
           <div className={'text-center text-24'}>
             <p className={'defaultHeaderLight  mb-[2rem]'}>For we are God’s fellow workers; you are God’s field, God’s

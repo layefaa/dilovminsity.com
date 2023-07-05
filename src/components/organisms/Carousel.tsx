@@ -71,7 +71,7 @@ const Carousel = ({slides, pictures, type, name, videos}: {
                             </svg>
 
                           </div>
-                          <video preload={'meta'} className={'w-full h-full'} src={x.url}></video>
+                          <video preload={'metadata'} className={'w-full h-full'} src={x.url}></video>
                         </div>
                         <p className={`pt-[1rem] ${CeraPro.className} capitalise text-dm-primary-green`}>{x.name}</p>
                       </SwiperSlide>

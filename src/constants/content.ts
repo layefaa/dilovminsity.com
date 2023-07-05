@@ -156,25 +156,25 @@ export const faqs = [
 
 export const videos = [
   {
-    name: 'Youth Empowerment Program',
+    name: 'Social Outreach',
     url: '/Unsorted/ypv5.mp4'
   },
   {
-    name: 'Youth Empowerment Program',
+    name: 'The COMB conference',
     url: '/Unsorted/ypv.mp4'
   },
   {
-    name: 'Youth Empowerment Program',
+    name: 'The COMB conference',
     url: '/Unsorted/ypv1.mp4'
   },
   {
-    name: 'Youth Empowerment Program',
+    name: 'The COMB conference',
     url: '/Unsorted/ypv2.mp4'
   }, {
-    name: 'Youth Empowerment Program',
+    name: 'The COMB conference',
     url: '/Unsorted/ypv3.mp4'
   }, {
-    name: 'Youth Empowerment Program',
+    name: 'The COMB conference',
     url: '/Unsorted/ypv4.mp4'
   },
 

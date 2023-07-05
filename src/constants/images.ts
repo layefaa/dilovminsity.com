@@ -7,7 +7,7 @@ export const pictures = [
     url: '/Unsorted/so2.jpeg'
   },
   {
-    name: 'Youth Empowerment Program',
+    name: 'The COMB conference. The Change ICONs',
     url: '/Unsorted/yp2.jpg'
   },
 
@@ -16,7 +16,7 @@ export const pictures = [
     url: '/Unsorted/so.jpg'
   },
   {
-    name: 'Youth Empowerment Program',
+    name: 'Youth Empowerment',
     url: '/Unsorted/yp.jpg'
   },
   {
@@ -24,12 +24,12 @@ export const pictures = [
     url: '/Unsorted/so1.jpg'
   },
   {
-    name: 'Youth Empowerment Program',
+    name: 'Youth Empowerment',
     url: '/Unsorted/yp1.jpg'
   },
 
   {
-    name: 'Youth Empowerment Program',
+    name: 'Project Ibrahim',
     url: '/Unsorted/yp3.jpg'
   },
 ]
