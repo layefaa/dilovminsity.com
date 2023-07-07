@@ -3,7 +3,13 @@ import React, {useState} from 'react';
 import {CeraPro} from "@/fonts";
 import {partnerForm} from "@/constants/content";
 import {Input, Select} from "@/components/molecules";
-import {email_validation, phone_validation, text_validation, web_validation} from "@/utils/inputValidation";
+import {
+    email_validation,
+    not_email_validation,
+    phone_validation,
+    text_validation,
+    web_validation
+} from "@/utils/inputValidation";
 import {Button} from "@/components/atoms";
 import {FieldValues, FormProvider, useForm} from "react-hook-form";
 import {partnerOptions} from "@/constants";
@@ -62,7 +68,7 @@ const PartnerForm = () => {
                        type={'text'}
                        validation={text_validation}/>
                 <Input label={'email'} id={'email'} name={'email'} placeholder={'e.g johndoe@mail.com'} type={'email'}
-                       validation={email_validation}/>
+                       validation={not_email_validation}/>
               </div>
               <div className={'flex lg:gap-[6rem] flex-col lg:flex-row justify-between'}>
                 <Input label={'organization name'} id={'organization'} name={'organization'}
@@ -77,12 +83,12 @@ const PartnerForm = () => {
                 <Input label={'address'} id={'address'} name={'address'}
                        placeholder={'e.g Suite 4, Cleave Cl. Ikoyi, Lagos.'}
                        type={'text'}
-                       validation={text_validation}/>
-                <Input label={'phone'} id={'phone'} name={'phone'} placeholder={'e.g +2348096555554'} type={'number'}
+                   />
+                <Input label={'phone'} id={'phone'} name={'phone'} placeholder={'e.g +2348096555554'} type={'text'}
                        validation={phone_validation}/>
               </div>
               <div className={'flex lg:gap-[6rem] flex-col lg:flex-row justify-between'}>
-                <Select label={'partnership type'} id={'type'} name={'type'} placeholder={'e.g Types'}
+                <Select label={'partnership type'} id={'type'} name={'type'} placeholder={'Select a Type'}
                         type={'text'}
                         options={partnerOptions}
                         validation={text_validation}/>

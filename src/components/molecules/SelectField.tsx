@@ -6,7 +6,7 @@ import {findInputError} from "@/utils/findInputError";
 import {isFormInvalid} from "@/utils/isFormInvalid";
 import {AnimatePresence} from "framer-motion";
 
-const inputStyle = 'px-[1.6rem] py-[1rem] font-[400] text-16 placeholder:text-16 placeholder:text-dm-tertiary-white2 rounded-lg outline-none relative bg-transparent overflow-hidden  text-dm-secondary-white border-ce-tertiary-white border-dm-tertiary-white2 border inline-flex rounded-[5px]'
+const inputStyle = 'appearance-none px-[1.6rem] py-[1rem] font-[400] text-16 placeholder:text-16 placeholder:text-dm-tertiary-white2 rounded-lg outline-none relative bg-transparent overflow-hidden  text-dm-secondary-white border-ce-tertiary-white border-dm-tertiary-white2 border inline-flex rounded-[5px]'
 
 const SelectField = ({label, placeholder, validation, id, options}: IInput) => {
   const {
@@ -38,7 +38,9 @@ const SelectField = ({label, placeholder, validation, id, options}: IInput) => {
                 className={` ${inputStyle}`}
                 {...register(id, validation)}
         >
+            <option value={''} selected>{placeholder}</option>
           {
+
             // @ts-ignore
             options.map((x) => {
               return (
