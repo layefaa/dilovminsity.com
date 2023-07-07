@@ -33,7 +33,7 @@ const OurGallery = () => {
           </div>
           <div className={'flex w-full h-full justify-center items-center'}>
             {/*@ts-ignore*/}
-            <video ref={videoRef} controls src={video.url} buffering="metadata">
+            <video ref={videoRef} className={'w-auto h-[70vh]'} controls src={video.url} buffering="metadata">
               <source src="movie.mp4" type="video/mp4"/>
             </video>
           </div>
