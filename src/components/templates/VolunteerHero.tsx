@@ -10,6 +10,7 @@ import {Button} from "@/components/atoms";
 import {CarouselPagination} from "@/utils/CarouselPagination";
 
 const VolunteerHero = () => {
+    const url =
   SwiperCore.use([Autoplay])
   return (
       <div className={'relative h-screen w-full '}>
@@ -41,7 +42,9 @@ const VolunteerHero = () => {
         <div
             className={'absolute h-full w-full flex flex-col justify-center text-center items-center text-dm-primary-white px-24 sm:px-40 md:px-48 lg:px-80 '}>
           <h1 className={` text-40 md:text-64 leading-[100%] font-bold mb-[1rem] ${CabinetGrotesk.className}`}>{volunteerHero.header}</h1>
-          <Button label={'Apply Now'} type={'button'}/>
+          <Button label={'Apply Now'} type={'button'} onClick={()=> {
+              location.href = "https://forms.gle/qUdEzwgRLkoXb88a9"
+          }}/>
         </div>
       </div>
   );
