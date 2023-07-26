@@ -1,7 +1,7 @@
 export const socials = {
     instagram: ' https://instagram.com/dilovministryintl?igshid=OTk0YzhjMDVlZA==',
     facebook: 'https://www.facebook.com/people/Dilovministry-Intl/100087218127496/?mibextid=ZbWKwL',
-    whatapps: ''
+    whatapps: "https://wa.me/2348140469640"
 
 }
 
