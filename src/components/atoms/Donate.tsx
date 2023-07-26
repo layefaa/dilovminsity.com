@@ -8,7 +8,7 @@ const Donate = () => {
     const {isDonateOpen, toggleDonate} = useMenuContext()
     return (
         <div
-            className={`filter fixed right-0 z-10 min-h-screen w-screen md:w-[35rem] pt-[7.5rem] md:pt-[8rem] px-[3rem] ${isDonateOpen ? 'flex flex-col' : 'hidden'}`}>
+            className={`filter fixed right-0 z-10 h-full overflow-y-scroll overflow-visible w-screen md:w-[50rem] pt-[7.5rem] md:py-[8rem] px-[3rem] ${isDonateOpen ? 'flex flex-col' : 'hidden'}`}>
             <div onClick={() => toggleDonate()} className={'flex  justify-end mb-24'}>
                 <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="ion:close">
@@ -21,6 +21,7 @@ const Donate = () => {
             </div>
             <div className={' flex flex-col gap-[3rem]'}>
                 <h1 className={`${CeraPro.className} font-[700] text-[2.5rem]`}>Donate to our Cause</h1>
+
                 <div className={'flex flex-col text-[1.5rem] gap-[1.5rem]'}>
                     <p className={'text-[2rem] text-dm-primary-green'}>Local Account</p>
                     <div className={'flex justify-between'}>
@@ -40,38 +41,88 @@ const Donate = () => {
 
                 </div>
                 <div className={'flex flex-col text-[1.5rem] gap-[1.5rem]'}>
-                    <p className={'text-[2rem] text-dm-primary-green'}>Foreign Account</p>
-                    <div className={'flex justify-between'}>
-                        <p>Ac Bank</p>
-                        <p> Sterling Bank</p>
+                    <p className={'text-[2rem] text-dm-primary-green'}>International Account</p>
+                    <div className={'flex flex-col text-[1.5rem] gap-[1rem]'}>
+                        <h3 className={'text-[1.5rem] text-dm-primary-green'}>USD Transfer</h3>
+                        <div className={'flex justify-between'}>
+                            <p>Beneficiary Bank Name</p>
+                            <p>Sterling Bank</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Beneficiary Bank Account Number</p>
+                            <p className={'text-dm-primary-blue'}>36145519</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Bank Swift Code</p>
+                            <p className={'text-dm-primary-blue'}>NAMENGLA</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Name</p>
+                            <p>Citibank N.A. New York</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Routing Number</p>
+                            <p className={'text-dm-primary-blue'}>02100089</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Swift Code</p>
+                            <p className={'text-dm-primary-blue'}>CITIUS33</p>
+                        </div>
                     </div>
-                    <div className={'flex justify-between'}>
-                        <p>Ac Name</p>
-                        <p>Dilovministry International</p>
+                    <div className={'flex flex-col text-[1.5rem] gap-[1rem]'}>
+                        <h3 className={'text-[1.5rem] text-dm-primary-green'}>GBP Transfer</h3>
+                        <div className={'flex justify-between'}>
+                            <p>Beneficiary Bank Name</p>
+                            <p>Sterling Bank</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Beneficiary Bank IBAN Number</p>
+                            <p className={'text-dm-primary-blue'}>GB45 CITI 1850 0805529859</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Bank Swift Code</p>
+                            <p className={'text-dm-primary-blue'}>NAMENGLA</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Name</p>
+                            <p>Citibank London</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Sort Code</p>
+                            <p className={'text-dm-primary-blue'}>18 50 08</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Swift Code</p>
+                            <p className={'text-dm-primary-blue'}>CITIGB2L</p>
+                        </div>
                     </div>
-                    <div className={'flex justify-between'}>
-                        <p>Ac Number USD</p>
-                        <p className={'text-dm-primary-blue'}>
-                            0094397748
-
-                        </p>
+                    <div className={'flex flex-col text-[1.5rem] gap-[1rem]'}>
+                        <h3 className={'text-[1.5rem] text-dm-primary-green'}>EURO Transfer</h3>
+                        <div className={'flex justify-between'}>
+                            <p>Beneficiary Bank Name</p>
+                            <p>Sterling Bank</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Beneficiary Bank IBAN Number</p>
+                            <p className={'text-dm-primary-blue'}>GB45 CITI 1850 0808663106</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Bank Swift Code</p>
+                            <p className={'text-dm-primary-blue'}>NAMENGLA</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Name</p>
+                            <p>Citibank London</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Sort Code</p>
+                            <p className={'text-dm-primary-blue'}>18 50 08</p>
+                        </div>
+                        <div className={'flex justify-between'}>
+                            <p>Correspondent Bank Swift Code</p>
+                            <p className={'text-dm-primary-blue'}>CITIGB2L</p>
+                        </div>
                     </div>
-                    <div className={'flex justify-between'}>
-                        <p>Ac Number EURO</p>
-                        <p className={'text-dm-primary-blue'}>
-                            0094412465
-
-                        </p>
-                    </div>
-                    <div className={'flex justify-between'}>
-                        <p>Ac Number GBP</p>
-                        <p className={'text-dm-primary-blue'}>
-                            0094398185
-
-
-                        </p>
-                    </div>
-
                 </div>
 
             </div>
