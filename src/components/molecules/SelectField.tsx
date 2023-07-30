@@ -44,7 +44,7 @@ const SelectField = ({label, placeholder, validation, id, options}: IInput) => {
                     // @ts-ignore
                     options.map((x) => {
                         return (
-                            <option key={x.name} value={x.name} className={'appearance-none capitalize bg-transparent'}> {x.name}</option>
+                            <option key={x.name} value={x.name} className={'capitalize bg-transparent'}> {x.name}</option>
                         )
                     })
                 }
