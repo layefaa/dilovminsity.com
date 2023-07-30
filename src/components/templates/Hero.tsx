@@ -36,11 +36,11 @@ const Hero = () => {
                 <Image sizes="100vw" fill className={'object-cover object-bottom'} src={hero} alt={''}/>
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="w-screen relative h-screen">
-                <div className={'h-full w-full bg-red-500'}></div>
-              </div>
-            </SwiperSlide>
+            {/*<SwiperSlide>*/}
+            {/*  <div className="w-screen relative h-screen">*/}
+            {/*    <Image sizes="100vw" fill className={'object-cover object-top'} src={'/img/youth.webp'} alt={''}/>*/}
+            {/*  </div>*/}
+            {/*</SwiperSlide>*/}
 
           </Swiper>
         </div>

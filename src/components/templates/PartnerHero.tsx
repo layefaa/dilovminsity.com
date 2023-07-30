@@ -28,7 +28,7 @@ const PartnerHero = () => {
             </SwiperSlide>
             <SwiperSlide>
               <div className="w-screen relative h-screen">
-                <div className={'h-full w-full bg-red-500'}></div>
+                  <Image fill className={'object-cover object-bottom'} src={'/img/children.webp'} alt={''}/>
               </div>
             </SwiperSlide>
 
