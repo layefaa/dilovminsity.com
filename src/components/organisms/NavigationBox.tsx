@@ -5,8 +5,7 @@ import {AnimatePresence, m} from "framer-motion";
 import {childVariants, navBoxVariants, parentVariants} from "@/utils/motion";
 import {Links, Socials} from "@/components/molecules";
 import {Button} from "@/components/atoms";
-// import {MorvaText} from "@/components/atoms";
-// import {cateyes_email, menuHeader, menuSubHeader, phone} from "@/constants";
+import {dilov_email} from "@/constants";
 
 
 const NavigationBox = () => {
@@ -46,7 +45,7 @@ const NavigationBox = () => {
                     variants={childVariants}
                     className={`text-center text-ce-secondary-white font-semibold  pb-10 md:pb-28`}>
                   <p>
-                    dilominstry@mail
+                      {dilov_email}
 
                     {/*{email}*/}
                   </p>

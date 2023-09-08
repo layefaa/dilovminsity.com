@@ -38,11 +38,12 @@ export const aboutChurch = {
   paragraph: 'Seek First the Kingdom of God',
   img: '/img/jesus.webp',
   section1Header: 'Dilov Ministries',
-  section1Paragraph: 'Welcome to Dilov Ministries, a community dedicated to propagating the gospel of Truth, Love, and Hope to mankind. We are a group of talented and gifted individuals united by our shared vision to transform the world into a better place through love and faith. Upholding God\'s Standard and Precept.',
+  section1Paragraph: 'Dilovministry was incorporated in 2022 with RN189624 but has been in existence since 2009. It was a desire and vision God placed in my heart since 2008. \n' +
+      'Dilovministry is a community of talented and gifted individuals who are ready to transform the world to a better place. It was envisioned to save lives both locally and globally through the act of love. It focuses on enriching the spiritual and physical lives of people towards God, and ensuring a life filled with love and purpose.',
   section2Header: 'Our Mission',
-  section2Paragraph: 'At Dilov Ministries, our mission is to save lives both locally and globally, enriching the spiritual and physical well-being of people, and guiding them towards a life filled with love and purpose. We are committed to upholding God\'s standard precepts in everythingwe do.',
+  section2Paragraph: 'Our mission is to empower the youths with the right skills and help them discover purpose through mentorship and coaching. We also ensure the social well-being of the community by providing basic social amenities to rural communities and societies.',
   section3Header: 'Our Vision',
-  section3Paragraph: 'Raising disciples of Christ as ICONs to nations and communities; fulfilling dominion over the earth.'
+  section3Paragraph: 'Our mission is to raise godly leaders and mentors in every aspects of life with the right moral and acceptable standards of living.'
 
 }
 
@@ -63,7 +64,7 @@ export const ourObjectives = {
   paragraph: 'Empowering Change, Spreading Love, \n' + ' Transforming Lives.',
   img1: '/img/obj1.webp',
   section1Header: ' Reach out to lost souls',
-  section1Paragraph: 'Proclaim the message of salvation and hope through evangelism and fellowship, bringing the transforming power of God\'s love to those in need.\n',
+  section1Paragraph: 'Reaching out to souls through evangelism, charity and capacity development',
   img2: '/img/obj2.webp',
   section2Header: '  Contribute to the welfare of people',
   section2Paragraph: ' Extend love, charity, and support both locally and globally, uplifting lives and meeting the physical and emotional needs of individuals and communities.',

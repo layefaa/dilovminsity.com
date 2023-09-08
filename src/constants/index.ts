@@ -30,7 +30,7 @@ export const aboutDilov = {
 
 }
 
-export const dilov_email = ''
+export const dilov_email = 'info@dilvm.org'
 
 export const partnerOptions = [
     {
