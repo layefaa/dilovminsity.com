@@ -77,7 +77,7 @@ const PartnerForm = () => {
                        validation={text_validation}/>
                 <Input label={'website'} id={'website'} name={'website'} placeholder={'e.g https://www.willberns.org'}
                        type={'text'}
-                       validation={web_validation}/>
+                />
               </div>
               <div className={'flex lg:gap-[6rem] flex-col lg:flex-row justify-between'}>
                 <Input label={'address'} id={'address'} name={'address'}

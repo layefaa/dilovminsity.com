@@ -29,7 +29,7 @@ export const phone_validation = {
       message: 'Is required',
     },
     pattern: {
-      value: /^\d{9,12}$/,
+      value: /^\d{9,14}$/,
       message: 'Need a valid phone number',
     },
 }
