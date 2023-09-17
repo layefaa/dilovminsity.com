@@ -1,37 +1,33 @@
-import sendgrid from "@sendgrid/mail";
-import {NextResponse} from "next/server";
-import {dilov_email} from "@/constants";
+import {ContactEmail} from '../../../components/atoms';
+import {NextResponse} from 'next/server';
+import {Resend} from 'resend';
 
-type EmailType = {
-  first_name?: string,
-  last_name?: string,
-  email?: string,
-  message?: string,
-}
+const resend = new Resend(process.env.RESEND_API);
 
+export async function POST(request: Request) {
+    const { first_name, email, last_name, message } = await request.json();
+    try {
+         await resend.emails.send({
+            from: 'onboarding@resend.dev',
+            to: ['dilovministry@gmail.com'],
+            subject: 'New Contact from Website',
+            // html: '<p>Testing<p/>'
+            react: ContactEmail({first_name, email, last_name, message}),
+        });
 
-export async function POST(req: Request) {
-  const {first_name, last_name, email, message}: EmailType = await req.json()
-  const msg = {
-    to: dilov_email,
-    from: dilov_email,
-    subject: 'New Contact From Website',
-    html: `
-    <div style="border: 1px solid black; border-radius: 10px;padding: 40px">
-        <h3> Contact's Name is ${first_name} ${last_name} </h3>
-        <p>${message}</p>
-        <strong>Email : <a href={mailto:${email}}>${email}</a> </strong>
-    </div>
-    `
-  }
-
-  try {
-    sendgrid.setApiKey(process.env.SENDGRID_API_KEY as string)
-    // await sendgrid.send(msg)
-    console.log(first_name,last_name)
-    return NextResponse.json({message: "Contact Email Sent Successfully"});
-  } catch (error) {
-    console.log(error);
-    return NextResponse.error();
-  }
+        return NextResponse.json({
+            status: 'Ok'
+        }, {
+            status: 200
+        });
+    } catch (e) {
+        if (e instanceof Error) {
+            console.log(`Failed to send email: ${e.message}`);
+        }
+        return NextResponse.json({
+            error: 'Internal server error.'
+        }, {
+            status: 500
+        })
+    }
 }

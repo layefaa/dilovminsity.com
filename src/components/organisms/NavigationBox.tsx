@@ -4,7 +4,6 @@ import {useMenuContext} from "@/context/MenuContext";
 import {AnimatePresence, m} from "framer-motion";
 import {childVariants, navBoxVariants, parentVariants} from "@/utils/motion";
 import {Links, Socials} from "@/components/molecules";
-import {Button} from "@/components/atoms";
 import {dilov_email} from "@/constants";
 
 
@@ -31,13 +30,11 @@ const NavigationBox = () => {
                 <m.p
                     variants={childVariants}
                     className={`text-20 sm:text-24 md:text-32 text-center `}>
-                  {/*{menuHeader}*/}
                   Uphold God&lsquo;s standard and precepts with Dilovministry!
                 </m.p>
                 <m.p
                     variants={childVariants}
                     className={'font-light py-10 md:py-28 '}>
-                  {/*{menuSubHeader}*/}
                   Spread the gospel of Truth, Love, and Hope to all!
 
                 </m.p>
@@ -47,10 +44,8 @@ const NavigationBox = () => {
                   <p>
                       {dilov_email}
 
-                    {/*{email}*/}
                   </p>
                   <p className={`mt-4 md:mt-6`}>
-                    {/*{phone}*/}
                     0814 046 9640
                   </p>
                 </m.div>
