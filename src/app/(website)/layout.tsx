@@ -38,7 +38,7 @@ export default function RootLayout({children,}: { children: React.ReactNode }) {
         <MenuContextProvider>
             <LazyMotion features={domAnimation}>
                 <Header/>
-                <OpacityReducer startDate="2023-09-16T00:00:00"/>
+                <OpacityReducer startDate="2023-09-13T00:00:00"/>
                 <main
                     className={`${CabinetGrotesk.className} mb-[3.5rem] md:mb-[7.5rem] leading-[120%] text-20 w-full  `}>
                     {children}
